@@ -40,11 +40,11 @@ html,body{
 }
 
 .section-1{
-    display:flex;
-    height:100vh;
-    align-items: center;
-    justify-content: center;
+    margin-top:3rem;
 
+}
+.section-2{
+    margin-top:8rem;
 }
 .col-for-text-heading h2{
     font-size: 3rem;
@@ -70,9 +70,7 @@ html,body{
 }
 
 
-.section-2{
-    background:#d4b83b;
-}
+
 .section-2-img{
     margin-top:7rem;
 
@@ -111,7 +109,7 @@ html,body{
 
 @media screen and (max-width:991px){
     .for-conference{
-        padding:5rem 3rem;
+        padding:5rem 1rem;
         
         background-color:#223988;
         color:white;
