@@ -48,6 +48,13 @@ html,body{
     
 
 }
+
+.conference-heading{
+    font-size:4rem;
+    font-weight:800;
+    color:#d4b83b;
+    
+}
 .section-2{
     margin-top:8rem;
     /* padding-left: 1.5rem; */
@@ -315,5 +322,20 @@ footer a:hover{
     .about-us .col-md-4{
         margin-top:2rem;
         padding:0rem !important;
+    }
+
+    .conference-heading{
+        font-size:2rem;
+        font-weight:400;
+        color:#d4b83b;
+        
+    }
+    .conference-time{
+        font-size: 1.2;
+
+    }
+    .conference-theme{
+        font-size: 1.5rem;
+        padding:0rem 0.5rem;
     }
 }
