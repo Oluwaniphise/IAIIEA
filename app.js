@@ -10,12 +10,12 @@ sr.reveal('.col-for-text-heading',{
 });
 
 
-sr.reveal('.col-for-img-heading',{
-    duration:2000,
-    origin:'right',
-    viewFactor:0.2,
-    distance:"200px"
-  });
+// sr.reveal('.col-for-img-heading',{
+//     duration:2000,
+//     origin:'right',
+//     viewFactor:0.2,
+//     distance:"200px"
+//   });
 
 
     // window.sr = ScrollReveal();

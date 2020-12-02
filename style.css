@@ -52,7 +52,7 @@ html,body{
 }
 .section-2{
     margin-top:8rem;
-    /* padding-left: 3rem; */
+    padding-left: 1.5rem;
 }
 .col-for-text-heading h2{
     font-size: 3rem;
@@ -84,9 +84,11 @@ html,body{
 
 }
 
-
+.dropdown{
+    border:none !important;
+}
 .for-conference{
-    padding:5rem 20rem;
+    padding:5rem 15rem;
     
     background-color:#223988;
     color:white;
@@ -121,7 +123,7 @@ footer a{
     color:white;
 }
 .footer-col{
-    margin-top:5rem;
+    margin-top:3rem;
 }
 .newsletter-form{
     background:transparent;
@@ -150,16 +152,39 @@ footer ul{
 footer a:hover{
     color:white;
 }
+.fa.fa-check{
+    color:#d4b83b;
+}
 
 .newsletter{
     padding:0rem 8rem !important;
 }
 
+.card{
+    background:#d4b83b;
+    height: 300px;
+    border-radius: 15px !important;
+    color:white;
+}
+.card p{
+    padding:1rem;
+
+}
+
+.abt-heading{
+    
+    margin:0;
+    font-weight: 600;
+    padding:0.5rem;
+}
 
 
 @media screen and (max-width:560px){
     .nav-item{
         padding-left:0rem;
+    }
+    .card-p{
+        padding:0rem;
     }
 
 }
@@ -236,4 +261,17 @@ footer a:hover{
         margin-top:5rem;
     }
 
+}
+
+@media screen and (max-width:767px){
+    .card{
+        background:#d4b83b;
+        height: 300px;
+        border-radius: 15px !important;
+        margin:2rem;
+    }
+    .about-us .col-md-4{
+        margin-top:2rem;
+        padding:0rem !important;
+    }
 }
