@@ -6,7 +6,7 @@ html,body{
     height:100%;
     width:100%;
     overflow-x: hidden;
-    background-color:#f4f4f4;
+    
     line-height: 1.5;
 }
 
@@ -34,17 +34,25 @@ html,body{
     margin-left:3.5rem;
 
 }
+.nav-first-section{
+    background-color:#f4f4f4;
+    padding-bottom:2rem;
+
+}
 
 .promoting{
     font-family: 'Dancing Script', cursive;
+    color:;
 }
 
 .section-1{
     margin-top:3rem;
+    
 
 }
 .section-2{
     margin-top:8rem;
+    /* padding-left: 3rem; */
 }
 .col-for-text-heading h2{
     font-size: 3rem;
@@ -55,7 +63,7 @@ html,body{
 
 .about-btn{
     background-color:#223988;
-    padding:1rem 4rem;
+    padding:1rem 3rem;
     margin-top: 15px;
 }
 
@@ -90,6 +98,7 @@ html,body{
 
 .btn-conference{
     background:white;
+    padding:1rem 2.5rem;
     
 }
 
@@ -98,6 +107,54 @@ html,body{
     text-decoration: none;
     
 }
+
+footer{
+    background-color: #223988;
+    color:white;
+}
+footer .container{
+    padding:5rem 5rem;
+   
+}
+footer a{
+    text-decoration:none;
+    color:white;
+}
+.footer-col{
+    margin-top:5rem;
+}
+.newsletter-form{
+    background:transparent;
+    text-align: left !important;
+    
+}
+input{
+    padding: 2rem 3rem !important;
+    border: 3px solid white!important;
+    border-radius: 10px !important;
+    text-align:left !important;
+}
+.btn-footer{
+   
+    color:#d4b83b !important;
+    font-size: 1.5rem;
+    text-align: center;
+   
+
+    
+}
+footer ul{
+    margin-top:1rem;
+}
+
+footer a:hover{
+    color:white;
+}
+
+.newsletter{
+    padding:0rem 8rem !important;
+}
+
 
 
 @media screen and (max-width:560px){
@@ -114,6 +171,49 @@ html,body{
         background-color:#223988;
         color:white;
         
+    }
+
+    footer{
+        background-color: #223988;
+        color:white;
+    }
+    footer .container{
+        padding:5rem 1.5rem;
+       
+    }
+    footer a{
+        text-decoration:none;
+        color:white;
+    }
+    .newsletter-form{
+        background:transparent;
+        
+    }
+    input{
+        padding: 2rem 3rem !important;
+        border: 3px solid white!important;
+        border-radius: 10px !important;
+        text-align:left !important;
+    }
+    .btn-footer{
+       
+        color:#d4b83b !important;
+        font-size: 1.5rem;
+        text-align: center;
+       
+    
+        
+    }
+    footer ul{
+        margin-top:1rem;
+    }
+    
+    footer a:hover{
+        color:white;
+    }
+    
+    .newsletter{
+        padding:0rem 1.5rem !important;
     }
     
 
