@@ -39,8 +39,8 @@ sr.reveal('.col-for-text-heading',{
 //         );
 
 
+// navbar scroll effect for conference, seminar, workshop
 
-window.addEventListener('scroll', function(){
-  var navbar = document.querySelector('.navbar');
-  navbar.classList.toggle('sticky', window.scrollY > 0);
-});
+
+
+
