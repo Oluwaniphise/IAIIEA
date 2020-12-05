@@ -14,15 +14,21 @@ html,body{
     width:120px;
 }
 
+nav{
+    padding:2.5rem !important;
+}
 .nav-item{
     padding-left:2.5rem;
 }
 
 .nav-link{
-    color:#223988;
-    font-size:1.1rem;
+    color:#223988 !important;
+    font-size:1.1rem !important;
 }
 
+.conference-nav{
+    color:white !important
+}
 
 
 .navbar-toggler-icon, .navbar-toggler{
@@ -34,18 +40,30 @@ html,body{
 
 }
 .nav-first-section{
-    background-color:#f4f4f4;
-    padding-bottom:2rem;
+    background-color:#F8F8F8;
+    padding-bottom:0rem;
 
+}
+
+.col-for-img-heading{
+    margin-top:0rem;
 }
 
 .promoting{
     font-family: 'Dancing Script', cursive;
     color:;
 }
-
+.sticky{
+    background:#0b090a !important;
+    transition:ease-in 800ms;
+}
 .section-1{
     margin-top:3rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
     
 
 }
@@ -53,7 +71,7 @@ html,body{
 .conference-heading{
     font-size:4rem;
     font-weight:800;
-    color:#d4b83b;
+    color:#F3930b;
     
 }
 .section-2{
@@ -61,8 +79,8 @@ html,body{
     /* padding-left: 1.5rem; */
 }
 .col-for-text-heading h2{
-    font-size: 3rem;
-    letter-spacing: 3px;
+    /* font-size: 3rem;
+    letter-spacing: 3px; */
 }
 
 
@@ -138,18 +156,17 @@ footer a{
 .newsletter-form{
     background:transparent;
     text-align: left !important;
-    
-}
-input{
     padding: 2rem 3rem !important;
     border: 3px solid white!important;
     border-radius: 10px !important;
     text-align:left !important;
+    
 }
+
 .btn-footer{
    
     color:#d4b83b !important;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
    
 
@@ -185,6 +202,39 @@ footer a:hover{
     background-color: transparent !important;
 }
 
+.seminar-heading{
+    font-size:4rem;
+    font-weight: 600;
+    letter-spacing: 2.2px;
+    color: #F3930B;
+
+
+}
+.seminar-time{
+    margin-top:1rem !important;
+
+}
+
+.date-for-seminar{
+    margin-top:1rem;
+    background: transparent 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 46px #00000099;
+    border: 5px solid #F3930B;
+    border-radius: 17px;
+    opacity: 1;
+    padding:0.5rem 5rem;
+    letter-spacing: 1.94px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+}
+
+.thick-orange{
+    color:#F3930B;
+}
+.seminar-theme-heading{
+    margin-top: 1rem;
+}
 
 .bg-img-for-conference{
     background-image:url("images/conference_2.jpg");
@@ -192,6 +242,15 @@ footer a:hover{
     height:100vh;
     background-repeat: no-repeat;
     background-size:cover;
+}
+.bg-img-for-seminar{
+    background-image:url("images/seminar.png");
+    width:100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+
 }
 .img-container{
     position:relative !important;
@@ -202,7 +261,7 @@ footer a:hover{
     left:0px;
     height:100%;
     width:100%;
-    background:rgba(0, 0, 0, 0.6);
+    background:rgba(0, 0, 0, 0.7);
     z-index:1;
 }
 .img-overlay-text{
@@ -228,6 +287,11 @@ footer a:hover{
     padding:0.5rem;
 }
 
+ .message-form{
+    border:2px solid #d4b83b !important;
+    border-radius: 10px !important;
+    padding:1.5rem 3rem;
+}
 
 @media screen and (max-width:560px){
     .nav-item{
@@ -238,15 +302,43 @@ footer a:hover{
     }
     .conference-time{
         
-         /* display:none; */
+         display:none;
 
     }
     .conference-theme{
-        /* display:none; */
+        display:none;
+    }
+
+    .col-for-text-heading{
+        margin-top:0rem;
+        margin-left:0.5rem;
+       
+    
+    }
+    .col-for-text-heading h2{
+        font-size: 1.5rem !important;
+        letter-spacing: 1.5px !important;
+        
     }
 
 }
 
+
+.btn-message{
+    background:#d4b83b;
+    padding:1rem 5rem;
+    
+}
+
+.message{
+    color:#223988 !important;
+}
+
+.btn-message a{
+    background:white;
+    text-decoration: none;
+    
+}
 @media screen and (max-width:991px){
     .for-conference{
         padding:5rem 1rem;
@@ -268,15 +360,13 @@ footer a:hover{
         text-decoration:none;
         color:white;
     }
-    .newsletter-form{
-        background:transparent;
-        
-    }
-    input{
+
+    input .newsletter-form{
         padding: 2rem 3rem !important;
         border: 3px solid white!important;
         border-radius: 10px !important;
         text-align:left !important;
+        background:transparent;
     }
     .btn-footer{
        
@@ -336,15 +426,75 @@ footer a:hover{
     .conference-heading{
         font-size:2rem;
         font-weight:400;
-        color:#d4b83b;
+        color:#F3930B;
         
     }
-    .conference-time{
-        font-size: 1.2;
-
-    }
+    
     .conference-theme{
         font-size: 1.5rem;
         padding:0rem 0.5rem;
     }
+
+    .date-for-seminar{
+        margin-top:0rem;
+        font-size:1.5rem !important;
+        background: transparent 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 46px #00000099;
+        border: 2.5px solid #F3930B;
+        border-radius: 10px;
+        opacity: 1;
+        padding:0rem 0rem;
+        letter-spacing: 1.94px;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    
+    }
+    .seminar-time{
+        display:none;
+    }
+    .seminar-heading{
+        font-size:2rem;
+        font-weight: 600;
+        letter-spacing: 2.2px;
+        color: #F3930B;
+    
+    
+    }
+  
 }
+
+
+
+/* @media screen and (max-width:1440px){
+  
+    .seminar-heading{
+        font-size:2rem;
+        font-weight: 600;
+        letter-spacing: 2.2px;
+        color: #F3930B;
+    
+    
+    }
+  
+    
+    .date-for-seminar{
+        margin-top:0.5rem;
+        background: transparent 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 46px #00000099;
+        border: 5px solid #F3930B;
+        border-radius: 17px;
+        opacity: 1;
+        padding:0.5rem 5rem;
+        letter-spacing: 1.94px;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    
+    }
+    
+    .thick-orange{
+        color:#F3930B;
+    }
+    .seminar-theme-heading{
+        margin-top: 1rem;
+    }
+} */

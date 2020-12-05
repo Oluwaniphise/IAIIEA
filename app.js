@@ -1,3 +1,6 @@
+
+
+
 // scrollreveal animation
 
 window.sr = ScrollReveal();
@@ -34,3 +37,10 @@ sr.reveal('.col-for-text-heading',{
 //         viewFactor:0.2,
 //         distance:"200px"}
 //         );
+
+
+
+window.addEventListener('scroll', function(){
+  var navbar = document.querySelector('.navbar');
+  navbar.classList.toggle('sticky', window.scrollY > 0);
+});
