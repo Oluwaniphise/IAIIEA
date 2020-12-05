@@ -59,7 +59,7 @@ nav{
 
 .sticky{
     background-color:#223988 !important;
-    transition:ease-in 800ms !important;
+    /* transition:ease-in 800ms !important; */
 }
 .section-1{
     margin-top:3rem;
@@ -77,6 +77,19 @@ nav{
     font-weight:800;
     color:#F3930b;
     
+}
+.conference-timer{
+    background: transparent 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 46px #00000099;
+    border: 5px solid #F3930B;
+    border-radius: 31px;
+    margin-bottom: 1.5rem;
+    margin-top:1rem;
+    padding:1.5rem 3rem;
+    letter-spacing: 2.24px;
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 .section-2{
     margin-top:8rem;
@@ -213,6 +226,9 @@ footer a:hover{
 
 
 }
+
+
+
 .seminar-time{
     margin-top:1rem !important;
 
@@ -322,6 +338,10 @@ footer a:hover{
         font-size: 1.5rem !important;
         letter-spacing: 1.5px !important;
         
+    }
+    .date-for-seminar h3{
+        font-size:1.2rem !important;
+    
     }
 
 }
