@@ -366,8 +366,8 @@ footer a:hover{
         font-size:1.2rem !important;
     
     }
-    .seminar-theme h4 {
-        font-size:1.2rem !important;
+    .seminar-theme{
+        font-size:1rem !important;
     }
 
 }
@@ -443,6 +443,10 @@ footer a:hover{
         padding:0rem 1.5rem !important;
     }
     
+    .seminar-reg{
+        background:#BE6F00;
+        padding: 1rem;
+    }
 
 }
 
