@@ -185,10 +185,8 @@ footer a{
     color:#DA8508 !important;
     font-size: 1.2rem;
     text-align: center;
-   
-
-    
 }
+
 footer ul{
     margin-top:1rem;
 }
@@ -227,7 +225,32 @@ footer a:hover{
 
 }
 
+.seminar-reg{
+    background:#BE6F00;
+    padding:5rem;
+}
 
+.form-seminar{
+    background:transparent !important;
+    box-shadow: 0px 3px 6px #00000029 !important;
+    border: 5px solid #F8F8F8 !important;
+    color:#FFF !important;
+    border-radius: 14px !important;
+    padding:2rem 3rem !important;
+    opacity: 1 !important;
+    backdrop-filter: blur(30px) !important;
+    -webkit-backdrop-filter: blur(30px) !important;
+}
+::placeholder{
+    color:white !important;
+}
+.btn-seminar{
+    background:white;
+    color:#F3930B;
+    padding:1rem 2rem;
+    border-radius: 3px !important;
+
+}
 
 .seminar-time{
     margin-top:1rem !important;
@@ -263,7 +286,7 @@ footer a:hover{
     background-size:cover;
 }
 .bg-img-for-seminar{
-    background-image:url("images/seminar.png");
+    background-image:url("images/seminar.jpg");
     width:100%;
     height:100vh;
     background-repeat: no-repeat;
@@ -343,6 +366,9 @@ footer a:hover{
         font-size:1.2rem !important;
     
     }
+    .seminar-theme h4 {
+        font-size:1.2rem !important;
+    }
 
 }
 
@@ -367,7 +393,7 @@ footer a:hover{
     
     .navbar ul{
         width:100%;
-        background:#d4b83b;
+        background:#DA8508;
         padding-left:1rem;
     }
     .navbar ul li{
@@ -404,15 +430,7 @@ footer a:hover{
         text-align:left !important;
         background:transparent;
     }
-    .btn-footer{
-       
-        color:#d4b83b !important;
-        font-size: 1.5rem;
-        text-align: center;
-       
-    
-        
-    }
+   
     footer ul{
         margin-top:1rem;
     }
@@ -455,7 +473,8 @@ footer a:hover{
         
         height: 300px;
         border-radius: 25px !important;
-        margin:2rem;
+        /* margin:2rem; */
+        margin: 0 2rem;
     }
     .about-us .col-md-4{
         margin-top:2rem;
