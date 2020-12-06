@@ -146,6 +146,13 @@ nav{
     
 }
 
+.call-for-paper-section{
+    margin:8rem 2rem;
+
+}
+.conference-important-date{
+    margin:8rem 2rem;
+}
 .btn-conference a{
     background:white;
     text-decoration: none;
@@ -342,13 +349,9 @@ footer a:hover{
     .card-p{
         padding:0rem;
     }
-    .conference-time{
-        
-         display:none;
-
-    }
+   
     .conference-theme{
-        display:none;
+        font-size:1.3rem !important;
     }
 
     .col-for-text-heading{
