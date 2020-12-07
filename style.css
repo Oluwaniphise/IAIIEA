@@ -95,9 +95,10 @@ nav{
     margin-top:8rem;
     /* padding-left: 1.5rem; */
 }
-.col-for-text-heading h2{
-    /* font-size: 3rem;
-    letter-spacing: 3px; */
+
+
+.how-to-join{
+    margin:5rem;
 }
 
 
@@ -209,7 +210,7 @@ footer a:hover{
     padding:0rem 8rem !important;
 }
 
-.card{
+.col-md-4 .card{
     background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0px 0px 57px #000000B0;
     opacity: 1;
@@ -217,7 +218,7 @@ footer a:hover{
     border-radius: 25px !important;
     color:white;
 }
-.card p{
+.col-md-4 .card-p{
     padding:1rem;
 
 }
@@ -248,9 +249,9 @@ footer a:hover{
     backdrop-filter: blur(30px) !important;
     -webkit-backdrop-filter: blur(30px) !important;
 }
-::placeholder{
+/* ::placeholder{
     color:white !important;
-}
+} */
 .btn-seminar{
     background:white;
     color:#F3930B;
@@ -283,6 +284,21 @@ footer a:hover{
 }
 .seminar-theme-heading{
     margin-top: 1rem;
+}
+.membership-login{
+    margin:5rem 0rem;
+}
+
+.membership-login-form{
+    box-shadow: 0px 3px 6px #00000029 !important;
+    border: 4px solid #DA8508 !important;
+    border-radius: 10px !important;
+    padding:1.5rem 2rem;
+}
+.btn-membership-login{
+    background-color:#DA8508 !important;
+    color:white;
+    padding:0.5rem 3rem;
 }
 
 .bg-img-for-conference{
@@ -346,7 +362,7 @@ footer a:hover{
     .nav-item{
         padding-left:0rem;
     }
-    .card-p{
+    .col-md-4 .card-p{
         padding:0rem;
     }
    
@@ -450,6 +466,9 @@ footer a:hover{
         background:#BE6F00;
         padding: 1rem;
     }
+    .how-to-join{
+        margin:0rem;
+    }
 
 }
 
@@ -473,7 +492,7 @@ footer a:hover{
 }
 
 @media screen and (max-width:767px){
-    .card{
+    .col-md-4 .card{
         background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
         box-shadow: 0px 0px 57px #000000B0;
         opacity: 1;
