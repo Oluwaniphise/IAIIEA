@@ -140,6 +140,20 @@ nav{
     /* justify-content: center; */
     /* align-items: center; */
 }
+.payment-heading{
+
+}
+
+.payment-form{
+    background:transparent 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 5px solid #F3930B;
+    border-radius: 14px;
+    opacity: 1; 
+     backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    padding:2rem 3rem;
+}
 
 .btn-conference{
     background:white;
@@ -308,6 +322,13 @@ footer a:hover{
     background-repeat: no-repeat;
     background-size:cover;
 }
+.bg-img-for-payment{
+    background-image:url("images/payment.jpg");
+    width:100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 .bg-img-for-seminar{
     background-image:url("images/seminar.jpg");
     width:100%;
@@ -354,6 +375,17 @@ footer a:hover{
     text-align:center;
 }
 
+.img-overlay-text-payment{
+    position:relative;
+    z-index: 2;
+    height:100vh;
+    width: 100%;
+    max-width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color:white;
+}
 
 .abt-heading{
     
