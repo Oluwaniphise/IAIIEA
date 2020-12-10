@@ -138,10 +138,57 @@ nav{
     /* justify-content: center; */
     /* align-items: center; */
 }
-.payment-heading{
 
+.tab-content{
+    background:#203A88 !important;
+    color:white;
+    
 }
-
+.materials h3{
+    padding:2rem;
+}
+.cert{
+    padding:3rem;
+}
+.btn-cert{
+    background:#F8F8F8 !important;
+    color:#DA8508;
+    padding:1rem 3rem;
+}
+.materials h5{
+    padding:3rem;
+}
+.materials h5 a{
+    color:white;
+}
+.nav-pills .active{
+    background:#F3930B !important;
+    
+}
+.div-article{
+    padding:3rem;
+    
+}
+.dashboard-container{
+    margin-top:10rem;
+}
+.announcement ul li{
+    padding:2rem;
+}
+.conference-talks{
+    padding:3rem;
+}
+.conference-talks ul li{
+    padding:1rem;
+}
+.conference-talks h4, .announcement h4{
+    padding:1rem !important;
+}
+.btn-article{
+    background:#F3930B !important;
+    padding:1rem 3rem;
+    color:white;
+}
 .payment-form{
     background:transparent 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
@@ -597,7 +644,30 @@ footer a:hover{
     
     
     }
-  
+
+    
+    
+    .dashboard-container .col-md-3{
+        
+    margin:3rem 0rem;
+       
+       
+    }
+    .dashboard-container{
+        margin-top:1rem;
+    }
+    .announcement ul li{
+        padding:0.5rem;
+    }
+    .conference-talks{
+        padding:1rem;
+    }
+    .conference-talks ul li{
+        padding:0.5rem;
+    }
+    .conference-talks h4, .announcement h4{
+        padding:0.5rem !important;
+    }
 }
 
 
