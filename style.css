@@ -49,7 +49,7 @@ nav{
 
 .promoting{
     font-family: 'Dancing Script', cursive;
-    color:#DA8508;
+    color:#F3930B;
 }
 /* .nav-conference{
     background-color: transparent !important;
@@ -60,7 +60,7 @@ nav{
     /* transition:ease-in 800ms !important; */
 }
 .section-1{
-    margin-top:3rem;
+    margin-top:1.5rem;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -108,6 +108,11 @@ nav{
     color:white;
 }
 
+.payment-col-for-tablet{
+    display:none;
+
+}
+
 .about-btn a{
     color:white;
     text-decoration: none;
@@ -125,9 +130,7 @@ nav{
 
 }
 
-.dropdown{
-    border:none !important;
-}
+
 .for-conference{
     padding:5rem 15rem;
     
@@ -143,6 +146,12 @@ nav{
     background:#203A88 !important;
     color:white;
     
+}
+
+.btn-payment{
+    background:#F3930B;
+    padding:1rem;
+    color:white;
 }
 .materials h3{
     padding:2rem;
@@ -190,14 +199,11 @@ nav{
     color:white;
 }
 .payment-form{
-    background:transparent 0% 0% no-repeat padding-box;
+    background:white !important;
     box-shadow: 0px 3px 6px #00000029;
-    border: 5px solid #F3930B;
-    border-radius: 14px;
-    opacity: 1; 
-     backdrop-filter: blur(30px);
-    -webkit-backdrop-filter: blur(30px);
-    padding:2rem 3rem;
+    border: 0;
+    border-radius:0px;
+    padding:5px;
 }
 
 .btn-conference{
@@ -222,6 +228,9 @@ nav{
     margin-top:1.5rem !important;
 }
 
+.about-page-section{
+    margin-top:3rem;
+}
 footer{
     background-color: #223988;
     color:white;
@@ -309,7 +318,7 @@ footer a:hover{
     -webkit-backdrop-filter: blur(30px) !important;
 }
 /* ::placeholder{
-    color:white !important;
+    color:red !important;
 } */
 .btn-seminar{
     background:white;
@@ -448,7 +457,7 @@ footer a:hover{
 }
 
  .message-form{
-    border:2px solid #d4b83b !important;
+    border:2px solid #DA8508 !important;
     border-radius: 10px !important;
     padding:1.5rem 3rem;
 }
@@ -480,6 +489,10 @@ footer a:hover{
         font-size:1.2rem !important;
     
     }
+    .dashboard-heading{
+        font-size:1.2rem;
+    }
+    
     .seminar-theme{
         font-size:1rem !important;
     }
@@ -488,10 +501,11 @@ footer a:hover{
 
 
 .btn-message{
-    background:#d4b83b;
+    background:#DA8508;
     padding:1rem 5rem;
     
 }
+
 
 .message{
     color:#223988 !important;
@@ -501,6 +515,10 @@ footer a:hover{
     background:white;
     text-decoration: none;
     
+}
+.fa.fa-home, .fa.fa-tablet, .fa.fa-envelope{
+    color:#DA8508;
+
 }
 @media screen and (max-width:991px){
 
@@ -645,7 +663,22 @@ footer a:hover{
     
     }
 
+    .payment-form{
+        background:none;
+        box-shadow:0;
+        border: 0px;
+        border-radius: 0px;
+        padding:5px;
+    }
+
+    .payment-col{
+        display:none;
+    }
+    .payment-col-for-tablet{
+        display:block;
     
+    }
+
     
     .dashboard-container .col-md-3{
         
@@ -667,6 +700,12 @@ footer a:hover{
     }
     .conference-talks h4, .announcement h4{
         padding:0.5rem !important;
+    }
+
+    .btn-payment-tablet{
+        background:#F3930B;
+        padding:1rem;
+        color:white;
     }
 }
 

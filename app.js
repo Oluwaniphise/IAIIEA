@@ -5,12 +5,9 @@ $("#countdown")
     );
   });
 
+  AOS.init(
+    
+  );
 
-  window.sr = ScrollReveal();
-  sr.reveal('.conference-heading, .conference-time, .conference-timer, .conference-theme', {
-      duration: 2000,
-      origin: 'top',
-      distance: "200px",
-      viewFactor:0.2
-  });
 
+  
