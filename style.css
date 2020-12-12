@@ -3,10 +3,9 @@
 
 html,body{
     font-family: 'Poppins', sans-serif;
-    height:100%;
-    width:100%;
+    /* height:100%;
+    width:100%; */
     overflow-x: hidden;
-    /* margin-top:10px;   */
     line-height: 1.5;
 }
 
@@ -31,7 +30,10 @@ nav{
 }
 
 
-
+.publications{
+    background:#F8F8F8;
+    padding:2rem;
+}
 
 .col-for-text-heading{
     margin-left:3.5rem;
@@ -51,13 +53,11 @@ nav{
     font-family: 'Dancing Script', cursive;
     color:#F3930B;
 }
-/* .nav-conference{
-    background-color: transparent !important;
-} */
+
 
 .sticky{
     background-color:#223988 !important;
-    /* transition:ease-in 800ms !important; */
+    transition:ease-in 800ms !important;
 }
 .section-1{
     margin-top:1.5rem;
@@ -88,6 +88,8 @@ nav{
     opacity: 1;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    
+   
 }
 .section-2{
     margin-top:8rem;
@@ -278,7 +280,7 @@ footer a:hover{
     padding:0rem 8rem !important;
 }
 
-.col-md-4 .card{
+.about-card .card{
     background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0px 0px 57px #000000B0;
     opacity: 1;
@@ -286,7 +288,7 @@ footer a:hover{
     border-radius: 25px !important;
     color:white;
 }
-.col-md-4 .card-p{
+.aboout-card .card-p{
     padding:1rem;
 
 }
@@ -299,6 +301,10 @@ footer a:hover{
     color: #F3930B;
 
 
+}
+
+.publications{
+    padding:5rem;
 }
 
 .seminar-reg{
@@ -392,7 +398,7 @@ footer a:hover{
     background-size:cover;
 }
 .bg-img-for-seminar{
-    background-image:url("images/seminar.jpg");
+    background-image:url("images/seminar-original.jpg");
     width:100%;
     height:100vh;
     background-repeat: no-repeat;
@@ -410,7 +416,7 @@ footer a:hover{
 
 
 }
-.img-container{
+.img-container, .carousel-item{
     position:relative !important;
 } 
 .image-overlay{
@@ -466,7 +472,7 @@ footer a:hover{
     .nav-item{
         padding-left:0rem;
     }
-    .col-md-4 .card-p{
+    .about-card .card-p{
         padding:0rem;
     }
    
@@ -605,7 +611,7 @@ footer a:hover{
 }
 
 @media screen and (max-width:767px){
-    .col-md-4 .card{
+    .about-card .card{
         background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
         box-shadow: 0px 0px 57px #000000B0;
         opacity: 1;
@@ -625,6 +631,9 @@ footer a:hover{
         padding:2rem;
     }
 
+    .pub{
+        margin-top:1.5rem;
+    }
     .conference-heading{
         font-size:2rem;
         font-weight:400;
@@ -661,6 +670,10 @@ footer a:hover{
         color: #F3930B;
     
     
+    }
+
+    .publications{
+        padding:2rem;
     }
 
     .payment-form{
