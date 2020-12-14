@@ -1,17 +1,12 @@
+
+
+
+
 window.addEventListener('scroll', function(){
     var navbar = document.querySelector('.navbar-conference');
     navbar.classList.toggle('sticky', window.scrollY > 0);
    
   });
-
-
-
-
-
-
-
-
-
 
 
 
@@ -23,6 +18,9 @@ $("#countdown")
   });
 
   
+
+
+
 
 
 

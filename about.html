@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | ABOUT US </title>
+    <meta name="description" content="ABOUT | International Association for Innovations in Educational Assessment">
+    <meta name="keywords" content="ABOUT | IAIIEA, International Association for Innovations in Educational Assessment ">
     <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" >
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -89,7 +92,7 @@
     <section class="about-page-section">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 col-for-text-heading">
+                <div class="col-md-6 col-for-text-heading" data-aos="fade-right">
                     <H1> <span style="color:#DA8508;">ABOUT</span> <span style="color:#223988">us at IAIIEA</span></H1>
                     <p>The International Association for Innovations in Educational Assessment is an Association
                         for innovative assessment with the mission of promoting the science and practice 
@@ -115,7 +118,7 @@
                     
 
                 </div>
-                <div class="col-md-4 col-for-img-heading ">
+                <div class="col-md-4 col-for-img-heading " data-aos="fade-left">
                     <img src="images/students.png" class="img-fluid" alt="">
                 </div>
             </div>
@@ -130,7 +133,7 @@
     
     <div class="row">
         
-        <div class="col-md-4 about-card">
+        <div class="col-md-4 about-card" data-aos="fade-up">
             <div class="card">
                 <div class="card-body">
                     <h3 class="abt-heading" style="color:#223988">VISON</h3>
@@ -142,7 +145,7 @@
   
         </div>
 
-        <div class="col-md-4 about-card">
+        <div class="col-md-4 about-card " data-aos="fade-up">
             <div class="card">
                 <div class="card-body">
                     <h3 class="abt-heading" style="color:#223988">MISSON</h3>
@@ -154,7 +157,7 @@
   
         </div>
 
-        <div class="col-md-4 about-card">
+        <div class="col-md-4 about-card" data-aos="fade-up">
             <div class="card">
                 <div class="card-body">
                     <h3 class="abt-heading" style="color:#223988">MOTTO</h3>
@@ -258,6 +261,16 @@
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="app.js"></script>
+<script>
+  AOS.init(
+    {
+      offset:200,
+      duration:1000,
+      once: false
+    }
+  );
+  </script>
 </body>
 </html>

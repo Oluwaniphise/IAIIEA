@@ -57,7 +57,7 @@ nav{
 
 .sticky{
     background-color:#223988 !important;
-    transition:ease-in 800ms !important;
+    transition:ease-in 500ms !important;
 }
 .section-1{
     margin-top:1.5rem;
