@@ -650,7 +650,15 @@ footer a:hover{
     display:none;
     }
     .gradient{
-        display:none;
+        position: absolute;
+        left: 50%;
+        top: 80%;
+        transform: translate(-50%, -50%);
+        width:250px;
+        height:250px;
+        background:  linear-gradient(180deg, #E3BE29 0%, #A91CC4 100%) 0% 0% no-repeat padding-box;
+        border-radius: 50%;
+        opacity: 0.5;
     }
 
     input .newsletter-form{
