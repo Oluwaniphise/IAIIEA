@@ -13,6 +13,63 @@ html,body{
     width:120px;
 }
 
+.gradient{
+    position:absolute;
+    top:250px;
+    left:500px;
+    width:400px;
+    height:400px;
+    background:  linear-gradient(180deg, #E3BE29 0%, #A91CC4 100%) 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.gradient-2{
+    position:absolute;
+    top:200px;
+    left:800px;
+    width:230px;
+    height:230px;
+    border-radius: 50%;
+    background: transparent linear-gradient(180deg, #203A88 0%, #869BDC 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.6;
+}
+.section-1 .col-md-4{
+    margin-top:14rem !important;
+ }
+.gradient-bar-1{
+    position:absolute;
+    top:0;
+    left:0;
+    width:8px;
+    height:350px;
+    background: transparent linear-gradient(180deg, #203A88 0%, #101D44 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+
+}
+
+.gradient-bar-2{
+    position:absolute;
+    left:0;
+    top:400px;
+    height:100px;
+    width:8px;
+    background: transparent linear-gradient(0deg, #B79F34 0%, #5C501A 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.par-col{
+    padding:3.5rem;
+}
+.gradient-bar-3{
+    position:absolute;
+    left:0;
+    top:550px;
+    height:50px;
+    width:8px;
+    background: transparent linear-gradient(0deg, #D5B93C 0%, #6B5D1E 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
 nav{
     padding:2.5rem !important;
 }
@@ -59,16 +116,16 @@ nav{
     background-color:#223988 !important;
     transition:ease-in 500ms !important;
 }
-.section-1{
+/* .section-1{
     margin-top:1.5rem;
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height:100vh;
+    height:50vh;
     
 
-}
+} */
 
 .conference-heading{
     font-size:4rem;
@@ -479,6 +536,9 @@ footer a:hover{
     .pub-heading{
         letter-spacing: 2px;
     }
+    .par-col{
+        padding:1rem;
+    }
    
     .conference-theme{
         font-size:1.3rem !important;
@@ -490,7 +550,27 @@ footer a:hover{
        
     
     }
-
+    .gradient{
+        position:absolute;
+        top:600px;
+        left:90px;
+        width:250px;
+        height:250px;
+        background:  linear-gradient(180deg, #E3BE29 0%, #A91CC4 100%) 0% 0% no-repeat padding-box;
+        border-radius: 50%;
+        opacity: 0.5;
+    }
+    
+    .gradient-2{
+        position:absolute;
+        top:450px;
+        left:100px;
+        width:230px;
+        height:230px;
+        border-radius: 50%;
+        background: transparent linear-gradient(180deg, #203A88 0%, #869BDC 100%) 0% 0% no-repeat padding-box;
+        opacity: 0.6;
+    }
 
     .col-for-text-heading h2{
         font-size: 1.5rem !important;
@@ -565,6 +645,12 @@ footer a:hover{
     footer a{
         text-decoration:none;
         color:white;
+    }
+    .gradient-2{
+    display:none;
+    }
+    .gradient{
+        display:none;
     }
 
     input .newsletter-form{
@@ -677,6 +763,10 @@ footer a:hover{
     
     
     }
+
+    .section-1 .col-md-4{
+        margin-top:5rem !important;
+     
 
     .publications{
         padding:2rem;
