@@ -133,6 +133,11 @@ nav{
     color:#F3930b;
     
 }
+.journey-bg{
+    background:#F8F8F8;
+    
+
+}
 .conference-timer{
     background: transparent 0% 0% no-repeat padding-box;
     box-shadow: 0px 0px 46px #00000099;
@@ -552,7 +557,7 @@ footer a:hover{
     }
     .gradient{
         position:absolute;
-        top:600px;
+        top:670px;
         left:90px;
         width:250px;
         height:250px;
@@ -774,6 +779,7 @@ footer a:hover{
 
     .section-1 .col-md-4{
         margin-top:5rem !important;
+    }
      
 
     .publications{
