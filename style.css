@@ -554,25 +554,11 @@ footer a:hover{
     
     }
     .gradient{
-        position:absolute;
-        top:670px;
-        left:90px;
-        width:250px;
-        height:250px;
-        background:  linear-gradient(180deg, #E3BE29 0%, #A91CC4 100%) 0% 0% no-repeat padding-box;
-        border-radius: 50%;
-        opacity: 0.5;
+       display:none;
     }
     
     .gradient-2{
-        position:absolute;
-        top:450px;
-        left:100px;
-        width:230px;
-        height:230px;
-        border-radius: 50%;
-        background: transparent linear-gradient(180deg, #203A88 0%, #869BDC 100%) 0% 0% no-repeat padding-box;
-        opacity: 0.6;
+        display:none;
     }
 
     .col-for-text-heading h2{
@@ -653,15 +639,7 @@ footer a:hover{
     display:none;
     }
     .gradient{
-        position: absolute;
-        left: 50%;
-        top: 80%;
-        transform: translate(-50%, -50%);
-        width:250px;
-        height:250px;
-        background:  linear-gradient(180deg, #E3BE29 0%, #A91CC4 100%) 0% 0% no-repeat padding-box;
-        border-radius: 50%;
-        opacity: 0.5;
+        display:none;
     }
 
     input .newsletter-form{
