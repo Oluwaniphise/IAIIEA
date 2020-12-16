@@ -10,10 +10,22 @@ window.addEventListener('scroll', function(){
 
 
 
-$("#countdown")
+$("#conference-timer")
   .countdown("2020/12/31", function(event) {
-    $(this).text(
-      event.strftime('%D days  %H:%M:%S')
+    $('#days').text(
+      event.strftime('%D')
+    );
+
+    $('#hours').text(
+      event.strftime('%H')
+    );
+
+    $('#minutes').text(
+      event.strftime('%M')
+    );
+
+    $("#seconds").text(
+      event.strftime('%S')
     );
   });
 

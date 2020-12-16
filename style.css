@@ -23,7 +23,16 @@ html,body{
     border-radius: 50%;
     opacity: 0.5;
 }
-
+.gradient-about{
+    position:absolute;
+    top:100px;
+    left:500px;
+    width:400px;
+    height:400px;
+    background:  linear-gradient(180deg, #E3BE29 0%, #A91CC4 100%) 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    opacity: 0.5;
+}
 .gradient-2{
     position:absolute;
     top:200px;
@@ -145,13 +154,45 @@ nav{
     border-radius: 31px;
     margin-bottom: 1.5rem;
     margin-top:1rem;
-    padding:1.5rem 3rem;
+    padding:2rem;
     letter-spacing: 2.24px;
     opacity: 1;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     
    
+}
+td{
+    padding:5px;
+}
+.paper-bar{
+    position:absolute;
+    top:800px;
+    left:50px;
+    height:700px;
+    width:10px;
+    background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.paper-bar-1{
+    position:absolute;
+    top:800px;
+    right:50px;
+    height:700px;
+    width:10px;
+    background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+.gradient-for-conference{
+    position:absolute;
+    top:900px;
+    left:500px;
+    width:500px;
+    height:500px;
+    border-radius:50%;
+    background: transparent linear-gradient(180deg, #E3BE29 0%, #A91CC4 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.5;
 }
 .section-2{
     margin-top:8rem;
@@ -351,12 +392,15 @@ footer a:hover{
     box-shadow: 0px 0px 57px #000000B0;
     opacity: 1;
     height: 300px;
+    /* width:300px; */
     border-radius: 25px !important;
     color:white;
 }
+.card-container{
+    padding:2.5rem;
+}
 .aboout-card .card-p{
     padding:1rem;
-
 }
 
 
@@ -528,6 +572,12 @@ footer a:hover{
     padding:1.5rem 3rem;
 }
 
+.btn-message{
+    background:#DA8508;
+    padding:1rem 5rem;
+    
+}
+
 @media screen and (max-width:560px){
     .nav-item{
         padding-left:0rem;
@@ -580,14 +630,6 @@ footer a:hover{
 
 }
 
-
-.btn-message{
-    background:#DA8508;
-    padding:1rem 5rem;
-    
-}
-
-
 .message{
     color:#223988 !important;
 }
@@ -621,6 +663,15 @@ footer a:hover{
         background-color:#223988;
         color:white;
         
+    }
+    .gradient-for-conference{
+       display:none;
+    }
+    .paper-bar{
+        display:none;
+    }
+    .paper-bar-1{
+        display:none;
     }
 
     footer{
@@ -672,6 +723,18 @@ footer a:hover{
 
 }
 
+@media screen and (max-width:1200px){
+    .gradient-2-conference{
+        display:none;
+        }
+        .gradient-for-conference{
+            display:none;
+        }
+        .paper-bar, .paper-bar-1{
+            display:none;
+        }
+
+}
 
 @media screen and (max-width:810px){
 
@@ -699,7 +762,7 @@ footer a:hover{
         
         height: 300px;
         border-radius: 25px !important;
-        /* margin:2rem; */
+  
         margin: 0 2rem;
     }
     .about-us .col-md-4{
@@ -722,6 +785,9 @@ footer a:hover{
         
     }
     
+    .gradient-about{
+        display:none;
+    }
     .conference-theme{
         font-size: 1.5rem;
         padding:0rem 0.5rem;
@@ -753,6 +819,9 @@ footer a:hover{
     
     }
 
+    .card-container{
+        padding:1rem;
+    }
     .section-1 .col-md-4{
         margin-top:5rem !important;
     }
