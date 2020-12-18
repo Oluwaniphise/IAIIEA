@@ -162,6 +162,9 @@ nav{
     
    
 }
+.news-heading{
+    font-size:3.5rem;
+}
 td{
     padding:5px;
 }
@@ -173,6 +176,11 @@ td{
     width:10px;
     background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+.dashboard-card{
+    padding:2rem;
+    border-radius:30px;
+    box-shadow: 8px 0px 26px #000000AD;
 }
 .paper-bar-1{
     position:absolute;
@@ -204,8 +212,33 @@ td{
     margin:5rem;
 }
 
+.gradient-reg{
+    position:absolute;
+    top:830px;
+    right:400px;
+    width:500px;
+    height:500px;
+    border-radius:50%;
+    background: transparent linear-gradient(0deg, #203A88 0%, #869BDC 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+}
 
-
+.gradient-reg-2{
+    position:absolute;
+    top:700px;
+    right:400px;
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    background: transparent linear-gradient(0deg, #E3BE29 0%, #A91CC4 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+}
+.conference-reg{
+    padding:6rem;
+}
+.dashboard-heading{
+    font-size:4rem;
+}
 .about-btn{
     background-color:#223988;
     padding:1rem 3rem;
@@ -216,6 +249,9 @@ td{
 .payment-col-for-tablet{
     display:none;
 
+}
+.payment-heading{
+    margin-top:1.5rem;
 }
 
 .about-btn a{
@@ -254,7 +290,7 @@ td{
 }
 
 .btn-payment{
-    background:#F3930B;
+    background:#DA8508;
     padding:1rem;
     color:white;
 }
@@ -270,7 +306,7 @@ td{
     padding:1rem 3rem;
 }
 .materials h5{
-    padding:3rem;
+    padding:1.5rem;
 }
 .materials h5 a{
     color:white;
@@ -287,7 +323,10 @@ td{
     margin-top:10rem;
 }
 .announcement ul li{
-    padding:2rem;
+    padding:1rem;
+}
+.announcement ul li:first-child{
+    padding:1rem;
 }
 .conference-talks{
     padding:3rem;
@@ -296,7 +335,9 @@ td{
     padding:1rem;
 }
 .conference-talks h4, .announcement h4{
-    padding:1rem !important;
+    text-align:center;
+    padding-top:2rem !important;
+    color:#F3930B;
 }
 .btn-article{
     background:#F3930B !important;
@@ -318,6 +359,10 @@ td{
     background:white;
     padding:1rem 2.5rem;
     
+}
+button a{
+    text-decoration:none;
+    color:black;
 }
 
 .call-for-paper-section{
@@ -358,17 +403,38 @@ footer a{
 .newsletter-form{
     background:transparent;
     text-align: left !important;
-    padding: 2rem 3rem !important;
+    padding: 2rem !important;
     border: 3px solid white!important;
     border-radius: 10px !important;
     text-align:left !important;
     
 }
+.gradient-for-newsletter{
+    position:absolute;
+    top:900px;
+    right:400px;
+    width:400px;
+    height:400px;
+    background: transparent linear-gradient(0deg, #203A88 0%, #869BDC 100%) 0% 0% no-repeat padding-box;
+    border-radius:50%;
+    opacity: 0.5;
+}
+.gradient-2-for-newsletter{
+    position:absolute;
+    top:800px;
+    right:300px;
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    background: transparent linear-gradient(0deg, #E3BE29 0%, #A91CC4 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+}
 
 .btn-footer{
-   
+    border:3px solid #DA8508;
+    width:300px;
     color:#DA8508 !important;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -421,10 +487,10 @@ footer a:hover{
 }
 
 .form-seminar{
-    box-shadow: 0px 3px 6px #00000029 !important;
-    border: 5px solid #F8F8F8 !important;
+   
+    border: 5px solid #DA8508 !important;
     border-radius: 14px !important;
-    padding:2rem 3rem !important;
+    padding:2rem  !important;
     opacity: 1 !important;
     backdrop-filter: blur(30px) !important;
     -webkit-backdrop-filter: blur(30px) !important;
@@ -481,12 +547,49 @@ footer a:hover{
     border-radius: 10px !important;
     padding:1.5rem 2rem;
 }
+
+.participant-login-form{
+    box-shadow: 0px 3px 6px #00000029 !important;
+    border: 4px solid #203A88 !important;
+    border-radius: 10px !important;
+    padding:1.5rem 2rem;
+
+}
+.membership-login-gradient{
+    position:absolute;
+    top:150px;
+    right:100px;
+    width:550px;
+    height:550px;
+    background: transparent linear-gradient(0deg, #203A88 0%, #869BDC 100%) 0% 0% no-repeat padding-box;
+    border-radius:50%;
+    opacity:0.5;
+
+}
+.membership-login-gradient-2{
+  
+    position:absolute;
+    top:100px;
+    right:0px;
+    width:300px;
+    height:300px;
+    background: transparent linear-gradient(0deg, #E3BE29 0%, #A91CC4 100%) 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    opacity: 0.5;
+    
+
+}
 .btn-membership-login{
     background-color:#DA8508 !important;
     color:white;
     padding:0.5rem 3rem;
 }
-
+.btn-participant-login{
+    background: transparent linear-gradient(180deg, #203A88 0%, #101D44 100%) 0% 0% no-repeat padding-box;
+    border-radius:10px;
+    color:white;
+    padding:1rem 3rem;
+}
 .bg-img-for-conference{
     background-image:url("images/conference.jpg");
     width:100%;
@@ -496,6 +599,14 @@ footer a:hover{
 }
 .bg-img-for-payment{
     background-image:url("images/payment.jpg");
+    width:100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.bg-img-for-reg{
+    background-image:url("images/registration.jpg");
     width:100%;
     height:100vh;
     background-repeat: no-repeat;
@@ -596,12 +707,18 @@ footer a:hover{
     .conference-theme{
         font-size:1.3rem !important;
     }
+    .news-heading{
+        font-size:1.5rem;
+    }
 
     .col-for-text-heading{
         margin-top:0rem;
         margin-left:0.5rem;
        
     
+    }
+    .newsletter-heading{
+        font-size: 1.5rem;
     }
     .gradient{
        display:none;
@@ -621,7 +738,7 @@ footer a:hover{
     
     }
     .dashboard-heading{
-        font-size:1.2rem;
+        font-size:2rem;
     }
     
     .seminar-theme{
@@ -644,6 +761,9 @@ footer a:hover{
 
 }
 @media screen and (max-width:991px){
+    .conference-reg{
+        padding:1rem;
+    }
 
     
     .navbar ul{
@@ -724,6 +844,23 @@ footer a:hover{
 }
 
 @media screen and (max-width:1200px){
+    .gradient-reg{
+      display:none;
+    }
+    .membership-login-gradient-2{
+        display:none;
+    }
+    .membership-login-gradient{
+        display:none;
+    }
+    .btn-membership-login{
+        background-color:#DA8508 !important;
+        color:white;
+        padding:0.5rem 3rem;
+    }
+    .gradient-reg-2{
+      display:none;
+    }
     .gradient-2-conference{
         display:none;
         }
@@ -733,6 +870,11 @@ footer a:hover{
         .paper-bar, .paper-bar-1{
             display:none;
         }
+        .gradient-for-newsletter{
+         display:none;
+        }
+        .gradient-2-for-newsletter{
+            display:none;
 
 }
 
@@ -755,6 +897,9 @@ footer a:hover{
 }
 
 @media screen and (max-width:767px){
+    .conference-reg{
+        padding:1rem;
+    }
     .about-card .card{
         background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
         box-shadow: 0px 0px 57px #000000B0;
@@ -764,6 +909,9 @@ footer a:hover{
         border-radius: 25px !important;
   
         margin: 0 2rem;
+    }
+    .payment-heading{
+        margin-top:0;
     }
     .about-us .col-md-4{
         margin-top:2rem;
@@ -871,11 +1019,11 @@ footer a:hover{
     }
 
     .btn-payment-tablet{
-        background:#F3930B;
+        background:#DA8508;
         padding:1rem;
         color:white;
     }
 }
 
 
-
+}
