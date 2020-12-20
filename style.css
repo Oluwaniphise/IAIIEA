@@ -177,6 +177,8 @@ nav{
 td{
     padding:5px;
 }
+
+
 .paper-bar{
     position:absolute;
     top:800px;
@@ -443,11 +445,14 @@ footer a{
 .btn-footer{
     border:3px solid #DA8508;
     width:300px;
-    color:#DA8508 !important;
+    color:white !important;
     font-size: 1rem;
     text-align: center;
 }
-
+.btn-footer:hover{
+    background:#DA8508 !important;
+  
+}
 footer ul{
     margin-top:1rem;
 }
@@ -700,6 +705,22 @@ footer a:hover{
 }
 
 @media screen and (max-width:560px){
+
+    .conference-timer{
+        background: transparent 0% 0% no-repeat padding-box;
+        box-shadow:none !important;
+        border:none !important;
+        border-radius: 31px;
+        margin-bottom: 1.5rem;
+        margin-top:0.5rem;
+        padding:1rem;
+        letter-spacing: 2.24px;
+        opacity: 1;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        
+       
+    }
     .nav-item{
         padding-left:0rem;
     }
