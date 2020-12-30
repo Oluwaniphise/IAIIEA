@@ -9,12 +9,16 @@ html,body{
     line-height: 1.5;
 }
 
+.active{
+    background: transparent linear-gradient(180deg, #203A88 0%, #101D44 100%) 0% 0% no-repeat padding-box;
+    text-align: center;
+}
 .logo{
     width:120px;
 }
 
 .gradient{
-    position:absolute;
+    position: absolute;
     top:250px;
     left:500px;
     width:400px;
@@ -25,6 +29,7 @@ html,body{
 }
 .gradient-about{
     position:absolute;
+    
     top:100px;
     left:500px;
     width:400px;
@@ -34,15 +39,25 @@ html,body{
     opacity: 0.5;
 }
 .gradient-2{
-    position:absolute;
+    position: absolute;
     top:200px;
     left:800px;
-    width:230px;
-    height:230px;
+    width:300px;
+    height:300px;
     border-radius: 50%;
     background: transparent linear-gradient(180deg, #203A88 0%, #869BDC 100%) 0% 0% no-repeat padding-box;
     opacity: 0.6;
 }
+.gradient-2-conference{
+    position:absolute;
+    right:0px;
+    top:800px;
+    width:300px;
+    height:300px;
+    border-radius:80%;
+    background: transparent linear-gradient(180deg, #203A88 0%, #869BDC 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.7;
+    }
 .section-1 .col-md-4{
     margin-top:14rem !important;
  }
@@ -120,7 +135,7 @@ nav{
 }
 
 .col-for-img-heading{
-    margin-top:0rem;
+    /* margin-top:0rem; */
 }
 
 .promoting{
@@ -188,10 +203,12 @@ td{
 
 
 .paper-bar{
+    
+   
     position:absolute;
-    top:800px;
-    left:50px;
-    height:700px;
+    top:940px;
+    left:80px;
+    height:550px;
     width:10px;
     background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -203,9 +220,9 @@ td{
 }
 .paper-bar-1{
     position:absolute;
-    top:800px;
-    right:50px;
-    height:700px;
+    top:940px;
+    right:80px;
+    height:550px;
     width:10px;
     background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -214,9 +231,9 @@ td{
 .gradient-for-conference{
     position:absolute;
     top:900px;
-    left:500px;
-    width:500px;
-    height:500px;
+    right:200px;
+    width:600px;
+    height:600px;
     border-radius:50%;
     background: transparent linear-gradient(180deg, #E3BE29 0%, #A91CC4 100%) 0% 0% no-repeat padding-box;
     opacity: 0.5;
@@ -229,6 +246,35 @@ td{
 
 .how-to-join{
     margin:5rem;
+    padding:2rem;
+    letter-spacing: 0.64px
+}
+
+.gradient-for-how-to-join{
+    background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;;
+    opacity: 1;
+    width: 10px;
+    height: 260px;
+    position:absolute;
+    top:300px;
+    left:128px;
+
+}
+.gradient-for-membership-const{
+    background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;;
+    opacity: 1;
+    width: 10px;
+    height: 330px;
+    position:absolute;
+    top:300px;
+    left:128px;
+    
+}
+.how-to-join h6{
+    line-height: 1.64;
+    margin-left:2.5rem;
+    font-weight: 500;
+    color:#203A88;
 }
 
 .gradient-reg{
@@ -308,7 +354,23 @@ td{
     
 }
 
+.motto p{
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    padding:70px 0;
+}
 
+.gradient-for-list{
+    background: #DA8508 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 10px;
+    height: 190px;
+    position:absolute;
+    top:330px;
+    left:73px;
+
+}
 .btn-payment{
     background:#DA8508;
     padding:1rem;
@@ -328,6 +390,15 @@ td{
 .materials h5{
     padding:1.5rem;
 }
+.about-us-cards{
+    position: relative;
+    bottom:18rem;
+}
+
+/* .orange-bg{
+    position:relative;
+    top:18rem;
+} */
 .materials h5 a{
     color:white;
 }
@@ -365,7 +436,10 @@ td{
     color:white;
 }
 .pub-heading{
+    margin-top:2rem;
     letter-spacing: 5px;
+    font-size: 3rem;
+    font-weight: 600;
 }
 .payment-form{
     background:white !important;
@@ -386,7 +460,16 @@ button a{
 }
 
 .call-for-paper-section{
-    margin:8rem 2rem;
+    padding:5rem 2rem;
+    margin-bottom:3rem;
+   
+
+}
+
+.bg-for-paper-section{
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin:0 !important;
 
 }
 .conference-important-date{
@@ -397,6 +480,10 @@ button a{
     text-decoration: none;
     
 }
+
+.about-list{
+    margin-left:2rem;
+}
 .col-md-6 ul li{
     margin-top:1.5rem !important;
 }
@@ -405,8 +492,30 @@ button a{
     margin-top:3rem;
 }
 footer{
-    background-color: #223988;
     color:white;
+    background-image:url('images/img-footer.png');
+    background: linear-gradient(180deg, #203A88 0%, #101D44 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.88;
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+
+
+}
+
+.orange-bg{
+    margin-top:10rem;
+    width:100%;
+    height: 200px;
+    background: linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 57px #000000B0;
+    opacity:1;
+}
+.bg-img-for-footer{
+    background-image:url("images/conference.jpg");
+    
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 footer .container{
     /* padding:5rem 5rem; */
@@ -432,17 +541,17 @@ footer a{
 .gradient-for-newsletter{
     position:absolute;
     top:900px;
-    right:400px;
-    width:400px;
-    height:400px;
+    right:350px;
+    width:550px;
+    height:550px;
     background: transparent linear-gradient(0deg, #203A88 0%, #869BDC 100%) 0% 0% no-repeat padding-box;
     border-radius:50%;
-    opacity: 0.5;
+    opacity: 0.56;
 }
 .gradient-2-for-newsletter{
     position:absolute;
-    top:800px;
-    right:300px;
+    top:630px;
+    right:0px;
     width:250px;
     height:250px;
     border-radius:50%;
@@ -557,7 +666,21 @@ footer a:hover{
     margin-top: 1rem;
 }
 .membership-login{
-    margin:5rem 0rem;
+    margin:5rem 8rem;
+}
+.membership-login form{
+    margin-left:4rem;
+}
+.gradient-for-member-login{
+    background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 10px;
+    height: 250px;
+    position:absolute;
+    top:330px;
+    left:150px;
+
+
 }
 .btn-view-more{
     background:#223988;
@@ -603,9 +726,12 @@ footer a:hover{
 
 }
 .btn-membership-login{
-    background-color:#DA8508 !important;
+    background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box !important;
+    border-radius: 9px;
+    opacity: 1;
     color:white;
-    padding:0.5rem 3rem;
+    padding:1rem 5rem;
+    
 }
 .btn-participant-login{
     background: transparent linear-gradient(180deg, #203A88 0%, #101D44 100%) 0% 0% no-repeat padding-box;
@@ -620,6 +746,14 @@ footer a:hover{
     background-repeat: no-repeat;
     background-size:cover;
 }
+
+.bg-img-for-footer{
+    background-image:url("images/img-footer.png");
+    width:100%;
+    height:80vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 .bg-img-for-payment{
     background-image:url("images/payment.jpg");
     width:100%;
@@ -627,7 +761,22 @@ footer a:hover{
     background-repeat: no-repeat;
     background-size:cover;
 }
-
+.bg-img-for-regi{
+    background-image:url("images/registration.jpg");
+    width:100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* background-position:center; */
+}
+.btn-regi{
+    background-color:#203A88 !important;
+    padding:1rem 3rem;
+}
+.btn-regi a{
+    text-decoration: none;
+    color:white;
+}
 .bg-img-for-reg{
     background-image:url("images/registration.jpg");
     width:100%;
@@ -651,8 +800,14 @@ footer a:hover{
     height:100vh;
     background-repeat: no-repeat;
     background-size:cover;
+}
 
-
+.bg-img-for-footer{
+    background-image:url("images/img-footer.png");
+    width:100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 .img-container, .carousel-item{
     position:relative !important;
@@ -666,6 +821,16 @@ footer a:hover{
     background:rgba(0, 0, 0, 0.7);
     z-index:1;
 }
+.image-overlay-footer{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    background: transparent linear-gradient(180deg, #203A88 0%, #101D44 100%) 0% 0% no-repeat padding-box;
+    opacity:0.88;
+    z-index:1;
+}
 .img-overlay-text{
     position:relative;
     z-index: 2;
@@ -674,11 +839,22 @@ footer a:hover{
     max-width: 100%;
     display:flex;
     align-items:center;
-    
     justify-content: center;
     flex-direction:column;
     color:white;
     text-align:center;
+}
+
+.img-overlay-text-conference{
+    position:relative;
+    z-index: 2;
+    height:100%;
+    width: 100%;
+    max-width: 100%;
+    padding:2rem;
+   
+    color:white;
+  
 }
 
 .img-overlay-text-payment{
@@ -713,6 +889,12 @@ footer a:hover{
 }
 
 @media screen and (max-width:560px){
+    .pub-heading{
+        margin-top:2rem;
+        letter-spacing: 5px;
+        font-size: 2rem;
+        font-weight: 600;
+    }
 
     .conference-timer{
         background: transparent 0% 0% no-repeat padding-box;
@@ -739,9 +921,7 @@ footer a:hover{
         padding:0rem;
     }
 
-    .pub-heading{
-        letter-spacing: 2px;
-    }
+   
     .par-col{
         padding:1rem;
     }
@@ -760,7 +940,7 @@ footer a:hover{
     
     }
     .dashboard-card{
-        padding:0.5rem;
+        padding:0rem;
         border-radius:30px;
         box-shadow: 8px 0px 26px #000000AD;
     }
@@ -812,7 +992,13 @@ footer a:hover{
     .conference-reg{
         padding:1rem;
     }
-
+    .gradient-for-list{
+     display:none;
+    
+    }
+    .about-list{
+        margin:0 !important;
+    }
     
     .navbar ul{
         width:100%;
@@ -835,17 +1021,14 @@ footer a:hover{
     .gradient-for-conference{
        display:none;
     }
-    .paper-bar{
+     .paper-bar{
         display:none;
     }
     .paper-bar-1{
         display:none;
     }
 
-    footer{
-        background-color: #223988;
-        color:white;
-    }
+   
     footer .container{
         padding:0rem 1rem;
        
@@ -858,7 +1041,7 @@ footer a:hover{
     display:none;
     }
     .gradient{
-        display:none;
+       display:none;
     }
 
     input .newsletter-form{
@@ -887,11 +1070,35 @@ footer a:hover{
     }
     .how-to-join{
         margin:0rem;
+        padding:1rem;
     }
 
 }
 
 @media screen and (max-width:1200px){
+    .gradient-for-how-to-join{
+        display:none;
+    
+    }
+    .gradient-for-member-login{
+     display:none;
+    
+    
+    }
+    .membership-login{
+        margin:5rem 0.5rem;
+    }
+    .membership-login form{
+        margin-left:0rem;
+    }
+    .gradient-for-membership-const{
+     display:none;
+    }
+    .how-to-join h6{
+        line-height: 1.64;
+        margin-left:0rem;
+        font-weight: 500;
+    }
     .gradient-reg{
       display:none;
     }
@@ -901,11 +1108,11 @@ footer a:hover{
     .membership-login-gradient{
         display:none;
     }
-    .btn-membership-login{
+    /* .btn-membership-login{
         background-color:#DA8508 !important;
         color:white;
         padding:0.5rem 3rem;
-    }
+    } */
     .gradient-reg-2{
       display:none;
     }
@@ -947,6 +1154,13 @@ footer a:hover{
 @media screen and (max-width:767px){
     .conference-reg{
         padding:1rem;
+    }
+    .about-us-cards{
+        position: relative;
+        bottom:0rem;
+    }
+    .orange-bg{
+        display:none;
     }
     .about-card .card{
         background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;

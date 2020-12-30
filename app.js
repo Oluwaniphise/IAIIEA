@@ -11,7 +11,7 @@ window.addEventListener('scroll', function(){
 
 
 $("#conference-timer")
-  .countdown("2020/12/31", function(event) {
+  .countdown("2021/08/25", function(event) {
     $('#days').text(
       event.strftime('%D')
     );
