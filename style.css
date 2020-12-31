@@ -253,9 +253,14 @@ td{
     background: transparent linear-gradient(180deg, #E3BE29 0%, #A91CC4 100%) 0% 0% no-repeat padding-box;
     opacity: 0.5;
 }
-.section-2{
+.section-2, .gallery-section{
     margin-top:8rem;
     /* padding-left: 1.5rem; */
+}
+
+.pub-section{
+    margin-top:8rem;
+    margin-bottom:5rem;
 }
 
 
@@ -333,6 +338,7 @@ td{
 .payment-heading{
     margin-top:1.5rem;
 }
+
 
 .about-btn a{
     color:white;
@@ -932,6 +938,12 @@ footer a:hover{
 }
 
 @media screen and (max-width:560px){
+
+    .swiper-button-next, .swiper-button-prev{
+        display:none !important;
+
+    
+    }
     .pub-heading{
         margin-top:2rem;
         letter-spacing: 5px;
