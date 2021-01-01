@@ -114,7 +114,9 @@ html,body{
 
 }
 nav{
-    /* padding:2.5rem !important; */
+    padding: 2.5rem !important;
+    /* padding-top:0; */
+    
 }
 .nav-item{
     margin-left:2.5rem;
@@ -462,9 +464,9 @@ td{
     background: #DA8508 0% 0% no-repeat padding-box;
     opacity: 1;
     width: 10px;
-    height: 190px;
+    height: 185px;
     position:absolute;
-    top:330px;
+    top:345px;
     left:73px;
 
 }
