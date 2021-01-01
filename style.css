@@ -646,11 +646,11 @@ footer a{
     height:550px;
     background: transparent linear-gradient(0deg, #203A88 0%, #869BDC 100%) 0% 0% no-repeat padding-box;
     border-radius:50%;
-    opacity: 0.56;
+    opacity: 0.46;
 }
 .gradient-2-for-newsletter{
     position:absolute;
-    top:630px;
+    top:700px;
     right:0px;
     width:250px;
     height:250px;
