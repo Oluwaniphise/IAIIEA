@@ -11,11 +11,7 @@ html,body{
     line-height: 1.5;
 }
 
-/* .active{
-    color:white !important;
-    background: transparent linear-gradient(180deg, #203A88 0%, #101D44 100%) 0% 0% no-repeat padding-box;
-   
-} */
+ 
 .logo{
     width:120px;
 }
@@ -118,15 +114,40 @@ html,body{
 
 }
 nav{
-    padding:2.5rem !important;
+    /* padding:2.5rem !important; */
 }
 .nav-item{
-    padding-left:2.5rem;
+    margin-left:2.5rem;
 }
 
 .nav-link{
     color:#223988 !important;
     font-size:1.1rem !important;
+    padding:1rem 5rem;
+}
+
+nav ul li.active {
+    background: transparent linear-gradient(180deg, #203A88 0%, #101D44 100%) 0% 0% no-repeat padding-box;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius:35px;
+    
+}
+.dropdown{
+    border:none;
+}
+
+.dropdown .dropdown-menu{
+    background-color:#DA8508 !important;
+}
+.dropdown-item{
+    color:white !important;
+}
+.dropdown-item:hover{
+    background: transparent linear-gradient(180deg, #203A88 0%, #101D44 100%) 0% 0% no-repeat padding-box !important;
+}
+li.active a{
+    color:white !important;
+    
 }
 
 .conference-nav{
@@ -166,6 +187,13 @@ nav{
 }
 .btn-outline-info a:hover{
     text-decoration:none;
+}
+.participant-login{
+    padding:8rem 1rem;
+}
+.img-dashboard{
+    margin-bottom:3rem;
+  
 }
 
 .sticky{
@@ -474,6 +502,9 @@ td{
 .nav-pills .active{
     background:#F3930B !important;
     
+}
+.nav-pills .nav-link{
+    margin-top:1.5rem;
 }
 .div-article{
     padding:3rem;
@@ -938,6 +969,7 @@ footer a:hover{
 }
 
 @media screen and (max-width:560px){
+   
 
     .swiper-button-next, .swiper-button-prev{
         display:none !important;
@@ -1043,7 +1075,38 @@ footer a:hover{
     color:#DA8508;
 
 }
+
+@media screen and (max-width:468px){
+    .cert {
+        padding:3rem 1rem;
+    } 
+    .cert h2{
+        font-size:1.4rem !important;
+
+    }
+    .btn-cert{
+        background:#F8F8F8 !important;
+        color:#DA8508;
+        padding:1rem 1rem;
+    }
+
+
+}
+
+
 @media screen and (max-width:991px){
+    .nav-item{
+        margin-left:0rem;
+       
+    }
+    nav ul li.active {
+        background: none;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius:0;
+
+        
+        
+    }
     .conference-reg{
         padding:1rem;
     }
@@ -1220,6 +1283,9 @@ footer a:hover{
 }
 
 @media screen and (max-width:767px){
+    .nav-pills .nav-link{
+        margin-top:0rem;
+    }
     .img-2020{
         display:none;
     }
