@@ -489,15 +489,14 @@ td{
 .materials h5{
     padding:1.5rem;
 }
-.about-us-cards{
+/* .about-us-cards{
     position: relative;
     bottom:18rem;
-}
-
-/* .orange-bg{
+} */
+ .orange-bg{
     position:relative;
     top:18rem;
-} */
+} 
 .materials h5 a{
     color:white;
 }
