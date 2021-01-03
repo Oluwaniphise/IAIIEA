@@ -165,6 +165,10 @@ li.active a{
     background:#F8F8F8;
     padding:2rem;
 }
+.gallery-container{
+    margin-top:8rem !important;
+    
+}
 
 .col-for-text-heading{
     margin-top:0;
