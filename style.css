@@ -57,9 +57,9 @@ html,body{
     background: transparent linear-gradient(180deg, #203A88 0%, #869BDC 100%) 0% 0% no-repeat padding-box;
     opacity: 0.7;
     }
-.section-1 .col-md-4{
+/* .section-1 .col-md-4{
     margin-top:14rem !important;
- }
+ } */
 .gradient-bar-1{
     position:absolute;
     top:0;
@@ -170,12 +170,12 @@ li.active a{
     
 }
 
-.col-for-text-heading{
+/* .col-for-text-heading{
     margin-top:0;
     
     margin-left:3.5rem;
 
-}
+} */
 .nav-first-section{
     background-color:#F8F8F8;
     padding-bottom:0rem;
@@ -408,6 +408,7 @@ td{
    
 } */
 
+
 .for-conference::after {
     content: '';
     display: block;
@@ -427,6 +428,8 @@ td{
   }
 
 
+
+
 .for-conference{
     padding:5rem 15rem;
     position:relative;
@@ -436,7 +439,9 @@ td{
 }
 
 
-
+.hero-img{
+    padding:15rem;
+}
 
 
 .for-footer:after{
@@ -505,6 +510,7 @@ td{
     position: relative;
     bottom:18rem;
 } */
+
  .orange-bg{
     position:relative;
     top:18rem;
@@ -619,14 +625,14 @@ footer{
 
 }
 
-.orange-bg{
+/* .orange-bg{
     margin-top:10rem;
     width:100%;
     height: 200px;
     background: linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0px 0px 57px #000000B0;
     opacity:1;
-}
+} */
 
 footer .container{
     /* padding:5rem 5rem; */
@@ -850,6 +856,17 @@ footer a:hover{
     color:white;
     padding:1rem 3rem;
 }
+.hero-text{
+    padding-left:8rem;
+}
+.bg-img{
+    background-image:url("images/Hero Img 3.jpg");
+    width:100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
 .bg-img-for-conference{
     background-image:url("images/conference.jpg");
     width:100%;
@@ -936,6 +953,20 @@ footer a:hover{
     flex-direction:column;
     color:white;
     text-align:center;
+}
+.img-overlay-text-hero{
+    position:relative;
+    z-index: 2;
+    height:100%;
+    width: 100%;
+    max-width: 100%;
+    display:flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction:column;
+    color:white;
+    
+
 }
 
 .img-overlay-text-conference{
@@ -1311,10 +1342,7 @@ footer a:hover{
     .conference-reg{
         padding:1rem;
     }
-    .about-us-cards{
-        position: relative;
-        bottom:0rem;
-    }
+  
     .orange-bg{
         display:none;
     }
