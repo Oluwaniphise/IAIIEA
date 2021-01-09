@@ -294,10 +294,12 @@ td{
     background: transparent linear-gradient(180deg, #E3BE29 0%, #A91CC4 100%) 0% 0% no-repeat padding-box;
     opacity: 0.5;
 }
-.section-2, .gallery-section{
+.gallery-section{
     margin-top:8rem;
+    margin-bottom:5rem;
     /* padding-left: 1.5rem; */
 }
+
 
 .pub-section{
     margin-top:8rem;
@@ -317,7 +319,7 @@ td{
     width: 10px;
     height: 260px;
     position:absolute;
-    top:300px;
+    top:320px;
     left:128px;
 
 }
@@ -327,7 +329,7 @@ td{
     width: 10px;
     height: 330px;
     position:absolute;
-    top:300px;
+    top:320px;
     left:128px;
     
 }
@@ -340,24 +342,24 @@ td{
 
 .gradient-reg{
     position:absolute;
-    top:830px;
+    top:1000px;
     right:400px;
-    width:500px;
-    height:500px;
+    width:600px;
+    height:600px;
     border-radius:50%;
     background: transparent linear-gradient(0deg, #203A88 0%, #869BDC 100%) 0% 0% no-repeat padding-box;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .gradient-reg-2{
     position:absolute;
-    top:700px;
+    top:800px;
     right:400px;
     width:300px;
     height:300px;
     border-radius:50%;
     background: transparent linear-gradient(0deg, #E3BE29 0%, #A91CC4 100%) 0% 0% no-repeat padding-box;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 .conference-reg{
     padding:6rem;
@@ -471,7 +473,10 @@ td{
     color:white;
     
 }
+.seminar-heading{
+    font-size:6rem !important;
 
+}
 .motto p{
     line-height: 1.5;
     display: inline-block;
@@ -489,8 +494,23 @@ td{
     left:73px;
 
 }
+.gradient-for-gallery{
+    
+    /* top:900px;
+    right:200px; */
+}
+.gallery-bg-gradient{
+    background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
+    width:300px;
+    height:300px;
+    position:relative;
+    left:5rem;
+    top:3rem;
+    color:white !important;
+    border-radius:50%;
+}
 .btn-payment{
-    background:#DA8508;
+    background: transparent linear-gradient(180deg, #F3930B 0%, #7A4A06 100%) 0% 0% no-repeat padding-box;
     padding:1rem;
     color:white;
 }
@@ -513,9 +533,19 @@ td{
     bottom:18rem;
 } */
 
+.half-bg{
+    background-color:#DA8508;
+    height:100vh;
+    width:300px;
+    position:absolute;
+    right:0;
+    top:1300px;
+}
+
  .orange-bg{
     position:relative;
     top:18rem;
+    background:red;
 } 
 .materials h5 a{
     color:white;
@@ -741,7 +771,7 @@ footer a:hover{
    
     border: 5px solid #DA8508 !important;
     border-radius: 14px !important;
-    padding:2rem  !important;
+    padding:2rem !important;
     opacity: 1 !important;
     backdrop-filter: blur(30px) !important;
     -webkit-backdrop-filter: blur(30px) !important;
@@ -844,6 +874,54 @@ footer a:hover{
     
 
 }
+.membership-reg-gradient{
+    position:absolute;
+    top:200px;
+    right:400px;
+    width:500px;
+    height:500px;
+    background: transparent linear-gradient(0deg, #203A88 0%, #869BDC 100%) 0% 0% no-repeat padding-box;
+    border-radius:50%;
+    opacity:0.5;
+
+
+}
+.membership-reg-gradient-2{
+    position:absolute;
+    top:100px;
+    right:200px;
+    width:300px;
+    height:300px;
+    background: transparent linear-gradient(0deg, #E3BE29 0%, #A91CC4 100%) 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    opacity: 0.5;
+
+}
+.membership-contact-gradient{
+    position:absolute;
+    top:200px;
+    left:150px;
+    width:500px;
+    height:500px;
+    background: transparent linear-gradient(0deg, #203A88 0%, #869BDC 100%) 0% 0% no-repeat padding-box;
+    border-radius:50%;
+    opacity:0.5;
+
+}
+
+.membership-contact-gradient-2{
+
+    position:absolute;
+    top:100px;
+    right:480px;
+    width:300px;
+    height:300px;
+    background: transparent linear-gradient(0deg, #E3BE29 0%, #A91CC4 100%) 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+
 .btn-membership-login{
     background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box !important;
     border-radius: 9px;
@@ -860,7 +938,7 @@ footer a:hover{
 }
 
 .bg-img{
-    background-image:url("images/hero-img.jpg");
+    background-image:url("images/hero-img-1.jpg");
     width:100%;
     height:100vh;
     background-repeat: no-repeat;
@@ -875,6 +953,14 @@ footer a:hover{
     background-size:cover;
 }
 
+.bg-img-for-payment{
+    background-image:url("images/payment.jpg");
+    width:100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
 
 
 .bg-img-for-regi{
@@ -960,15 +1046,17 @@ footer a:hover{
     height:100%;
     width: 100%;
     display:flex;
-    align-items:center;
+    align-items:flex-start;
     justify-content: center;
     flex-direction:column;
     color:white;
-    text-align: center;
+    text-align: left;
     
 
 }
-
+.hero-text{
+    padding-left:4rem;
+}
 .img-overlay-text-conference{
     position:relative;
     z-index: 2;
@@ -1102,7 +1190,7 @@ footer a:hover{
     }
     
     .seminar-theme{
-        font-size:1rem !important;
+        font-size:1.3rem !important;
     }
 
 }
@@ -1247,10 +1335,10 @@ footer a:hover{
 
 @media screen and (max-width:1200px){
 
-    .section-2-img{
+    /* .section-2-img{
         margin-top:0rem;
         background: none;
-        /* opacity: 1; */
+       
     
     }
     .section-2-img img{
@@ -1258,16 +1346,28 @@ footer a:hover{
         top:20%;
         left:0%;
         display:block;
+    } */
+
+    .membership-reg-gradient{
+       display:none;
+    
     }
+    .membership-reg-gradient-2{
+        display:none;
+    }
+    .membership-contact-gradient{
+        display:none;
+    }
+    .membership-contact-gradient-2{
+      display:none;
+    }
+    
     .gradient-for-how-to-join{
         display:none;
-    
     }
     .gradient-for-member-login{
      display:none;
-    
-    
-    }
+     }
     .membership-login{
         margin:5rem 0.5rem;
     }
@@ -1335,6 +1435,11 @@ footer a:hover{
 }
 
 @media screen and (max-width:767px){
+    .gallery-section{
+        /* margin-top:8rem; */
+        margin-bottom:1rem;
+        /* padding-left: 1.5rem; */
+    }
     
     .nav-pills .nav-link{
         margin-top:0rem;
@@ -1414,7 +1519,7 @@ footer a:hover{
         display:none;
     }
     .seminar-heading{
-        font-size:2rem;
+        font-size:3rem;
         font-weight: 600;
         letter-spacing: 2.2px;
         color: #F3930B;
