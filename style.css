@@ -495,9 +495,24 @@ td{
 
 }
 .gradient-for-gallery{
-    
-    /* top:900px;
-    right:200px; */
+    background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
+    width:700px;
+    height:700px;
+    opacity: 1;
+    position:absolute;
+    top:900px;
+    left:200px;
+   
+}
+.publication-bg-gradient{
+    background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
+    width:300px;
+    height:300px;
+    opacity: 1;
+    position:absolute;
+    top:1000px;
+    left:200px;
+
 }
 .gallery-bg-gradient{
     background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
@@ -806,6 +821,9 @@ footer a:hover{
 
 .conference-col{
     margin-top:8rem;
+}
+.newsletter-heading{
+    font-size:4rem;
 }
 
 .thick-orange{
