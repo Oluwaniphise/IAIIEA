@@ -22,7 +22,7 @@ $(document).on('click', '.navbar-nav .navbar-item', function(){
 // for conference timer
 
 $("#conference-timer")
-  .countdown("2021/08/25", function(event) {
+  .countdown("2021/02/5", function(event) {
     $('#days').text(
       event.strftime('%D')
     );
