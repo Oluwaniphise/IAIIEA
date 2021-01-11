@@ -1129,6 +1129,12 @@ footer a:hover{
 }
 
 @media screen and (max-width:560px){
+    .gallery-heading h1, .publication-heading h1{
+        font-size:2.5rem !important;
+    }
+    .hero-text{
+        padding-left:1.5rem;
+    }
    
    
 
@@ -1256,6 +1262,9 @@ footer a:hover{
 
 
 @media screen and (max-width:991px){
+    .gallery-bg-gradient{
+        display:none;
+      }
     
  
     nav .nav-item{
@@ -1463,6 +1472,7 @@ footer a:hover{
 }
 
 @media screen and (max-width:767px){
+    
     .gallery-section{
         /* margin-top:8rem; */
         margin-bottom:1rem;
