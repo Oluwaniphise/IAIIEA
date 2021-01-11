@@ -514,7 +514,7 @@ td{
     left:200px;
 
 }
-.gallery-bg-gradient{
+/* .gallery-bg-gradient{
     background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
     width:300px;
     height:300px;
@@ -523,7 +523,7 @@ td{
     top:3rem;
     color:white !important;
     border-radius:50%;
-}
+} */
 .btn-payment{
     background: transparent linear-gradient(180deg, #F3930B 0%, #7A4A06 100%) 0% 0% no-repeat padding-box;
     padding:1rem;
@@ -776,6 +776,29 @@ footer a:hover{
     color: #F3930B;
 
 
+}
+
+.gradient-reg-sem{
+    position:absolute;
+    top:800px;
+    right:400px;
+    width:600px;
+    height:600px;
+    border-radius:50%;
+    background: transparent linear-gradient(0deg, #203A88 0%, #869BDC 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.3;
+
+}
+.gradient-reg-2-sem{
+
+    position:absolute;
+    top:700px;
+    right:400px;
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    background: transparent linear-gradient(0deg, #E3BE29 0%, #A91CC4 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.3;
 }
 
 
@@ -1135,7 +1158,16 @@ footer a:hover{
     .hero-text{
         padding-left:1.5rem;
     }
-   
+    .timer-d{
+        font-size:0.5rem;
+        color:#F3930B;
+    }
+    .conference-heading{
+        font-size:2rem;
+        font-weight:400;
+        color:#F3930B;
+        
+    }
    
 
     .swiper-button-next, .swiper-button-prev{
@@ -1262,9 +1294,16 @@ footer a:hover{
 
 
 @media screen and (max-width:991px){
-    .gallery-bg-gradient{
-        display:none;
-      }
+    /* .gallery-bg-gradient{
+    background: none;
+    width:0;
+    height:0;
+    position:normal;
+    left:0;
+    top:0;
+    color:black;
+    border-radius:0;
+      } */
     
  
     nav .nav-item{
@@ -1371,6 +1410,16 @@ footer a:hover{
 }
 
 @media screen and (max-width:1200px){
+    .gradient-reg-sem{
+      display:none;
+    
+    }
+    .gradient-reg-2-sem{
+    
+        display:none;
+    }
+    
+    
 
     /* .section-2-img{
         margin-top:0rem;
