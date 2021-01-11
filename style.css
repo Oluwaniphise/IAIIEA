@@ -1158,6 +1158,14 @@ footer a:hover{
     .hero-text{
         padding-left:1.5rem;
     }
+    .seminar-heading{
+        font-size:2rem;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: #F3930B;
+    
+    
+    }
     .timer-d{
         font-size:0.5rem;
         color:#F3930B;
