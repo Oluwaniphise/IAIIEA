@@ -1,8 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/Lato-Regular.ttf);
+    
+  }
+  @font-face {
+    font-family: LatoBlack;
+    src: url(fonts/Lato-Black.ttf);
+    
+  }
+
+  @font-face{
+      font-family:promotingFont;
+      src:url(fonts/Austhind.ttf);
+  }
+
+  @font-face{
+      font-family:galleryFont;
+      src:url(fonts/Magic-Hat.ttf);
+  }
 
 html,body{
-    font-family: 'Poppins', sans-serif;
+    font-family: myFirstFont;
     /* height:100%; */
     /* width:100%; */
     position:relative;
@@ -11,6 +29,9 @@ html,body{
     line-height: 1.5;
 }
 
+.specific-font{
+    font-family:LatoBlack;
+}
  
 .logo{
     width:120px;
@@ -187,8 +208,12 @@ li.active a{
 }
 
 .promoting{
-    font-family: 'Dancing Script', cursive;
-    color:#F3930B;
+    /* font: normal normal normal 89px/148px Austhind; */
+    font-family:promotingFont;
+    font-size:3.4rem;
+    letter-spacing: 0px;
+    color: #F3930B;
+    
 }
 .btn-outline-info{
     background:#223988 !important;
@@ -382,6 +407,17 @@ td{
     margin-top: 15px;
     color:white;
 }
+.about-btn-hero{
+    background: transparent linear-gradient(180deg, #F3930B 0%, #7A4A06 100%) 0% 0% no-repeat padding-box;
+    padding:1rem 3rem;
+    margin-top: 15px;
+    color:white;
+
+}
+.about-btn-hero a{
+    text-decoration: none;
+    color:white;
+}
 
 .payment-col-for-tablet{
     display:none;
@@ -542,17 +578,41 @@ td{
     top:1000px;
     left:200px;
 
+
 }
-/* .gallery-bg-gradient{
-    background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
-    width:300px;
-    height:300px;
-    position:relative;
-    left:5rem;
-    top:3rem;
+
+.gallery-heading{
+    font-family: galleryFont;
+    text-align: left;
+    font-weight:700;
+    margin-left:7rem;
+    padding-bottom:2rem;
+    padding-top:2rem;
+    font-size:4rem;
+    letter-spacing: 50.22px;
+    opacity: 0.5;
+    color:#F8F8F8;
+
+}
+
+.swiper-button-next, .swiper-button-prev{
     color:white !important;
-    border-radius:50%;
-} */
+}
+.gallery-conf-1, .gallery-conf-7, .gallery-conf-2, .gallery-conf-4{
+    margin-top:11rem;
+
+}
+
+.gallery-conf-6{
+    margin-top:13rem;
+}
+.gallery-conf-3{
+    margin-top:9.5rem;
+}
+
+.gallery-conf-5{
+    margin-top:8rem;
+}
 .btn-payment{
     background: transparent linear-gradient(180deg, #F3930B 0%, #7A4A06 100%) 0% 0% no-repeat padding-box;
     padding:1rem;
@@ -589,7 +649,7 @@ td{
 }
 
 .newsletter-small{
-    font-size:2rem !important;
+    font-size:2.2rem !important;
     color:#F8F8F8;
 }
 .other-newsletter-heading{
@@ -913,7 +973,9 @@ footer a:hover{
     text-align:center;
     opacity: 1;
 }
-
+.swiper-slide p{
+    color:#F8F8F8;
+}
 .date-for-seminar{
     margin-top:1rem;
     background: transparent 0% 0% no-repeat padding-box;
@@ -935,7 +997,7 @@ footer a:hover{
 .conference-col{
     margin-top:8rem;
 }
-.newsletter-heading, .gallery-heading{
+.newsletter-heading, .gallery-page-heading{
     font-size:5rem;
 }
 .timer-d{
@@ -1189,6 +1251,15 @@ a.btn-view{
     background:rgba(0, 0, 0, 0.7);
     z-index:1;
 }
+.image-overlay-hero{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    /* background:rgba(0, 0, 0, 0.4); */
+    z-index:1;
+}
 .image-overlay-footer{
     position:absolute;
     top:0px;
@@ -1277,7 +1348,7 @@ a.btn-view{
         font-size:1.2rem !important;
         color:#F8F8F8;
     }
-    .gallery-heading{
+    .gallery-page-heading{
         font-size: 4rem !important;
     }
 
@@ -1296,9 +1367,23 @@ a.btn-view{
     .go-home{
         display:none;
     }
-    .gallery-heading h1, .publication-heading h1{
+     .publication-heading h1{
         font-size:2.5rem !important;
     }
+    .gallery-heading{
+        font-family: galleryFont;
+        text-align: left;
+        font-weight:700;
+        margin-left:1rem;
+        padding-bottom:2rem;
+        padding-top:2rem;
+        font-size:4rem;
+        letter-spacing: 5.5px;
+        opacity: 0.5;
+        color:#F8F8F8;
+    
+    }
+    
     .hero-text{
         padding-left:1.5rem;
     }
@@ -1315,6 +1400,7 @@ a.btn-view{
 
     .swiper-button-next, .swiper-button-prev{
         display:none !important;
+   
 
     
     }
@@ -1669,6 +1755,22 @@ a.btn-view{
 }
 
 @media screen and (max-width:767px){
+    .gallery-conf-1, .gallery-conf-7, .gallery-conf-2, .gallery-conf-4{
+        margin-top:0.5rem;
+    
+    }
+    
+    .gallery-conf-6{
+        margin-top:0.5rem;
+    }
+    .gallery-conf-3{
+        margin-top:0.5rem;
+    }
+    
+    .gallery-conf-5{
+        margin-top:0.5rem;
+    }
+    
     #days, #hours, #minutes, #seconds{
         font-size:2rem;
         padding-left:1rem;
