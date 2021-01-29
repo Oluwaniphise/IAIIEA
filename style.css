@@ -588,6 +588,10 @@ td{
     right:0;
     top:1300px;
 }
+
+.newsletter-small{
+    font-size:1.5rem !important;
+}
 .dashboard-gradient{
     background: transparent linear-gradient(180deg, #203A88 0%, #869BDC 100%) 0% 0% no-repeat padding-box;
     opacity: 0.5;
@@ -1640,6 +1644,19 @@ a.btn-view{
 }
 
 @media screen and (max-width:767px){
+    #days, #hours, #minutes, #seconds{
+        font-size:2rem;
+        padding-left:1rem;
+        }
+        #seconds{
+            padding-right:1rem;
+        }
+        .timer-d{
+            font-size:1rem;
+            padding-left:1rem;
+            color:#F3930B;
+        }
+
     .gallery-cards .col-md-4{
         margin-top:2rem ;
     }
