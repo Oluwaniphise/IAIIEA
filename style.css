@@ -1385,7 +1385,7 @@ a.btn-view{
     }
     
     .hero-text{
-        padding-left:1rem;
+        padding-left:0.5rem;
     }
     .seminar-heading{
         font-size:3.5rem;
@@ -1755,6 +1755,21 @@ a.btn-view{
 }
 
 @media screen and (max-width:767px){
+    .img-overlay-text-hero{
+        position:relative;
+        z-index: 2;
+        height:100%;
+        width: 100%;
+        display:flex;
+        background:rgba(0, 0, 0, 0.5);
+        align-items:flex-start;
+        justify-content: center;
+        flex-direction:column;
+        color:white;
+        text-align: left;
+        
+    
+    }
     .gallery-conf-1, .gallery-conf-7, .gallery-conf-2, .gallery-conf-4{
         margin-top:0.5rem;
     
