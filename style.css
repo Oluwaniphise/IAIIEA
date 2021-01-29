@@ -929,7 +929,7 @@ footer a:hover{
     margin-top:8rem;
 }
 .newsletter-heading{
-    font-size:4rem;
+    font-size:5rem;
 }
 .timer-d{
     /* font-size:1.8rem; */
@@ -1308,8 +1308,8 @@ a.btn-view{
         box-shadow:none !important;
         border:none !important;
         border-radius: 31px;
-        margin-bottom: 1.5rem;
-        margin-top:0.5rem;
+        margin-bottom: 1rem;
+        margin-top:0rem;
         padding:1rem;
         letter-spacing: 2.24px;
         opacity: 1;
