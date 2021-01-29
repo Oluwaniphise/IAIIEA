@@ -575,10 +575,9 @@ td{
 .materials h5{
     padding:1.5rem;
 }
-/* .about-us-cards{
-    position: relative;
-    bottom:18rem;
-} */
+.materials img{
+    width:30px;
+}
 
 .half-bg{
     background-color:#DA8508;
@@ -590,7 +589,15 @@ td{
 }
 
 .newsletter-small{
-    font-size:1.5rem !important;
+    font-size:2rem !important;
+    color:#F8F8F8;
+}
+.other-newsletter-heading{
+    font-size: 4rem;
+    color: #DA8508;
+    text-shadow: 0px 3px 6px #00000029;
+    opacity: 0.8;
+
 }
 .dashboard-gradient{
     background: transparent linear-gradient(180deg, #203A88 0%, #869BDC 100%) 0% 0% no-repeat padding-box;
@@ -928,7 +935,7 @@ footer a:hover{
 .conference-col{
     margin-top:8rem;
 }
-.newsletter-heading{
+.newsletter-heading, .gallery-heading{
     font-size:5rem;
 }
 .timer-d{
@@ -1266,6 +1273,21 @@ a.btn-view{
 }
 
 @media screen and (max-width:560px){
+    .newsletter-small{
+        font-size:1.2rem !important;
+        color:#F8F8F8;
+    }
+    .gallery-heading{
+        font-size: 4rem !important;
+    }
+
+    .other-newsletter-heading{
+        font-size: 2.5rem;
+        color: #DA8508;
+        text-shadow: 0px 3px 6px #00000029;
+        opacity: 1;
+    
+    }
     #days, #hours, #minutes, #seconds{
         font-size:4rem;
         padding-left:1rem;
@@ -1308,7 +1330,7 @@ a.btn-view{
         box-shadow:none !important;
         border:none !important;
         border-radius: 31px;
-        margin-bottom: 1rem;
+        margin-bottom: 0rem;
         margin-top:0rem;
         padding:1rem;
         letter-spacing: 2.24px;
@@ -1353,7 +1375,10 @@ a.btn-view{
     }
     
     .newsletter-heading{
-        font-size: 1.5rem;
+        font-size: 3rem;
+    }
+    .gallery-heading{
+        font-size:3rem;
     }
     .gradient{
        display:none;
