@@ -288,6 +288,21 @@ td{
     color:#F3930B;
 }
 
+.registration-heading{
+    font-size:2rem;
+    color:#F3930B;
+    font-weight:700
+}
+
+.registration-heading-2{
+    font-size:4rem;
+    color:#F3930B;
+    font-weight:700
+}
+.registration-text{
+    font-size:1.2rem;
+}
+
 .paper-bar{
     
    
@@ -764,7 +779,7 @@ button a{
 
 .call-for-paper-section{
     padding:5rem 2rem;
-    margin-bottom:3rem;
+    /* margin-bottom:3rem; */
    
 
 }
@@ -1344,6 +1359,20 @@ a.btn-view{
 }
 
 @media screen and (max-width:560px){
+    .registration-heading{
+        font-size:1.8rem;
+        color:#F3930B;
+        font-weight:700
+    }
+    
+    .registration-heading-2{
+        font-size:3rem;
+        color:#F3930B;
+        font-weight:700
+    }
+    .registration-text{
+        font-size:1.1rem;
+    }
     .newsletter-small{
         font-size:1.2rem !important;
         color:#F8F8F8;
@@ -1755,6 +1784,12 @@ a.btn-view{
 }
 
 @media screen and (max-width:767px){
+    .about-text-heading{
+        margin-top:0;
+        
+        margin-left:1.2rem;
+    
+    }
     .img-overlay-text-hero{
         position:relative;
         z-index: 2;
