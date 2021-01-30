@@ -366,9 +366,9 @@ td{
     background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;;
     opacity: 1;
     width: 10px;
-    height: 260px;
+    height: 200px;
     position:absolute;
-    top:320px;
+    top:640px;
     left:128px;
 
 }
@@ -376,7 +376,7 @@ td{
     background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;;
     opacity: 1;
     width: 10px;
-    height: 330px;
+    height: 300px;
     position:absolute;
     top:320px;
     left:128px;
@@ -553,10 +553,7 @@ td{
     color:white;
     
 }
-.seminar-heading{
-    font-size:6rem;
 
-}
 .motto p{
     line-height: 1.5;
     display: inline-block;
@@ -570,7 +567,7 @@ td{
     width: 10px;
     height: 185px;
     position:absolute;
-    top:345px;
+    top:328Fpx;
     left:73px;
 
 }
@@ -1357,6 +1354,9 @@ a.btn-view{
     padding:1rem 5rem;
     
 }
+.seminar-theme{
+    font-size:1.5rem;
+}
 
 @media screen and (max-width:560px){
     .registration-heading{
@@ -1416,14 +1416,7 @@ a.btn-view{
     .hero-text{
         padding-left:0.5rem;
     }
-    .seminar-heading{
-        font-size:3.5rem;
-        font-weight: 600;
-        letter-spacing: 0px;
-        color: #F3930B;
-    
-    
-    }
+ 
     
    
 
