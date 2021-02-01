@@ -1420,12 +1420,13 @@ a.btn-view{
     .gallery-heading{
         font-family: galleryFont;
         text-align: left;
+        
         font-weight:700;
         margin-left:1rem;
         padding-bottom:2rem;
         padding-top:2rem;
-        font-size:4rem;
-        letter-spacing: 5.5px;
+        font-size:2.2rem;
+        letter-spacing: 0px;
         opacity: 0.5;
         color:#F8F8F8;
     
@@ -1503,9 +1504,7 @@ a.btn-view{
     .newsletter-heading{
         font-size: 2.5rem;
     }
-    .gallery-heading{
-        font-size:3rem;
-    }
+   
     .gradient{
        display:none;
     }
