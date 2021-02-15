@@ -560,6 +560,29 @@ td{
     vertical-align: middle;
     padding:70px 0;
 }
+.event-schedule-gradient{
+    background:  linear-gradient(180deg, #E3BE29 0%, #A91CC4 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    width: 350px;
+    height:350px;
+    border-radius:50%;
+    position:absolute;
+    top:600px;
+    right:300px;
+
+
+}
+.event-schedule-gradient-2{
+    background: transparent linear-gradient(0deg, #203A88 0%, #869BDC 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    position: absolute;
+    top: 600px;
+    right:70px;
+    height:250px;
+    width:250px;
+    border-radius:50%;
+
+}
 
 .gradient-for-list{
     background: #DA8508 0% 0% no-repeat padding-box;
@@ -567,7 +590,7 @@ td{
     width: 10px;
     height: 185px;
     position:absolute;
-    top:328Fpx;
+    top:328px;
     left:73px;
 
 }
