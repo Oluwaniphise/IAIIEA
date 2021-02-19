@@ -139,6 +139,15 @@ nav{
     /* padding-top:0; */
     
 }
+.team-img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    
+}
+.team-container{
+    padding:5rem;
+}
 nav .nav-item{
     margin-left:2.5rem;
 }
