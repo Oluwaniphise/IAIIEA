@@ -148,6 +148,9 @@ nav{
 .team-container{
     padding:5rem;
 }
+.team-container .col-md-4{
+    margin-top:3rem;
+}
 nav .nav-item{
     margin-left:2.5rem;
 }
@@ -693,7 +696,7 @@ td{
 }
 
 .newsletter-small{
-    font-size:4rem !important;
+    font-size:3rem !important;
     color:#F8F8F8;
 }
 .other-newsletter-heading{
@@ -1424,7 +1427,7 @@ a.btn-view{
         font-size:1.1rem;
     }
     .newsletter-small{
-        font-size:3rem !important;
+        font-size:2rem !important;
         color:#F8F8F8;
     }
     .gallery-page-heading{
@@ -1534,7 +1537,7 @@ a.btn-view{
     }
     
     .newsletter-heading{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
    
     .gradient{
