@@ -606,6 +606,7 @@ td{
     left:73px;
 
 }
+
 .gradient-for-gallery{
     background: transparent linear-gradient(180deg, #DA8508 0%, #6D4304 100%) 0% 0% no-repeat padding-box;
     width:700px;
@@ -1600,16 +1601,20 @@ a.btn-view{
 
 
 @media screen and (max-width:991px){
-    /* .gallery-bg-gradient{
-    background: none;
-    width:0;
-    height:0;
-    position:normal;
-    left:0;
-    top:0;
-    color:black;
-    border-radius:0;
-      } */
+    .gallery-conf-1, .gallery-conf-7, .gallery-conf-2, .gallery-conf-4{
+        margin-top:0rem;
+    
+    }
+    .gallery-conf-5{
+        margin-top:0rem;
+        
+    }
+    .gallery-conf-6{
+        margin-top:0rem;
+    }
+    .gallery-conf-3{
+        margin-top:0em;
+    }
     
  
     nav .nav-item{
@@ -1716,6 +1721,7 @@ a.btn-view{
 }
 
 @media screen and (max-width:1200px){
+    
     .dashboard-gradient{
         display:none;
     }
