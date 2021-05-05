@@ -147,6 +147,9 @@ nav{
 }
 .team-container{
     padding:5rem;
+    background:#203A88;
+    color:white;
+    opacity: 1;
 }
 .team-container .col-md-4{
     margin-top:3rem;
@@ -301,13 +304,13 @@ td{
 }
 
 .registration-heading{
-    font-size:2.5rem;
+    /* font-size:2.5rem; */
     color:#F3930B;
-    font-weight:700
+    font-weight:700;
 }
 
 .registration-heading-2{
-    font-size:5rem;
+    font-size:4rem;
     color:#F3930B;
     font-weight:700
 }
@@ -1366,6 +1369,11 @@ a.btn-view{
 .hero-text{
     padding-left:4rem;
 }
+.hero-text-programme{
+    margin-top:5rem;
+    padding-left:4rem;
+
+}
 .img-overlay-text-conference{
     position:relative;
     z-index: 2;
@@ -1471,6 +1479,9 @@ a.btn-view{
     
     .hero-text{
         padding-left:0.5rem;
+    }
+    .hero-text-programme{
+        padding-left:1rem;
     }
  
     
