@@ -8,7 +8,9 @@ window.addEventListener('scroll', function(){
    
   });
 
-// 
+
+
+// active menu
 $(document).on('click', '.navbar-nav .navbar-item', function(){
   $(this).addClass('active').siblings().removeClass('active');
 })

@@ -24,6 +24,7 @@ html,body{
     /* height:100%; */
     /* width:100%; */
     position:relative;
+    /* padding-top:70px; */
 
     overflow-x: hidden;
     line-height: 1.5;
@@ -129,17 +130,17 @@ html,body{
     opacity: 1;
     
 } */
-.gallery-img img{
-    /* position:relative;
-    top:20%;
-    left:2%; */
 
-}
 nav{
     padding: 2.5rem !important;
-    /* padding-top:0; */
-    
+   
 }
+.hr{
+    background-color: #203A88;
+    width:80%;
+    margin-top:8rem;
+}
+
 .team-img{
     width:150px;
     height:150px;
@@ -148,8 +149,8 @@ nav{
 }
 .team-container{
     padding:5rem;
-    background:#203A88;
-    color:white;
+    /* background:#203A88; */
+    /* color:white; */
     opacity: 1;
 }
 .team-container .col-md-4{
@@ -254,6 +255,7 @@ li.active a{
     background-color:#223988 !important;
     transition:ease-in 500ms !important;
 }
+
 /* .section-1{
     margin-top:1.5rem;
     display:flex;
